@@ -1,1 +1,3 @@
-theme: none
+theme: jekyll-theme-slate
+exclude:
+    - README.md
