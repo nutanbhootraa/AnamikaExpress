@@ -1,5 +1,5 @@
 import './Header.css';
-import header from './header.jpg';
+import header from './header_backup.jpeg';
 import HomeIcon from '@material-ui/icons/Home';
 
 function Header() {
@@ -11,19 +11,6 @@ function Header() {
                 <HomeIcon fontSize="large"/>
               </div>
           </div>
-
-          <div className="author">
-              <b>
-                  Author : <br/>
-                  "An Avid Reader<br/>
-                  A Proud Memer<br/>
-                  A Passionate Coder"<br/>
-              </b>
-          </div>
-          <div className="quote">
-              <b>You are what you do</b>
-          </div>
-
       </div>
   );
 }
