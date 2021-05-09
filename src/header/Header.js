@@ -1,18 +1,13 @@
 import './Header.css';
-import header from './header_backup.png';
-import HomeIcon from '@material-ui/icons/Home';
+import logo from './logo.png';
+import React from "react";
 
 function Header() {
-  return (
-      <div className="header" style={{backgroundImage: `url(${header})`}}>
-          <div className="siteName">
-              <b>Anamika Express</b>
-              <div style={{float:'right', paddingRight:'2.5%'}}>
-                <HomeIcon fontSize="large"/>
-              </div>
-          </div>
-      </div>
-  );
+    return (
+        <div className="logo">
+            <img src={logo} alt="logo" width="200px" height="150px" /> <br/>
+        </div>
+    );
 }
 
 export default Header;
