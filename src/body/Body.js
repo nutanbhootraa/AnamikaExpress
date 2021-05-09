@@ -27,17 +27,28 @@ function Body() {
                 <Container maxWidth="sm" align="center">
                     <h1>Categories</h1>
                         <Paper elevation={3} variant='outlined' >
-                            <Typography><img src={ALL} alt="ALL" width="200px" height="150px" /> <br/></Typography>
+                            <img src={ALL} width="150px" height="150px" />
                         </Paper>
                     <Paper elevation={3} variant='outlined' >
-                            <Typography><img src={ShortStories} alt="ShortStories" width="200px" height="150px" /> <br/></Typography>
+                            <img src={ShortStories} width="150px" height="150px" />
+                        <Typography variant="subtitle1" gutterBottom>
+                            Will be released every Friday and Saturday
+                        </Typography>
+
                         </Paper>
                     <Paper elevation={3} variant='outlined' >
-                            <Typography><img src={Puzzles} alt="Puzzles" width="200px" height="150px" /> <br/></Typography>
-                        </Paper>
+                            <img src={Puzzles} width="150px" height="150px" />
+                        <Typography variant="subtitle1" gutterBottom>
+                            Will be released every Wednesday
+                        </Typography>
+
+                    </Paper>
                     <Paper elevation={3} variant='outlined' >
-                            <Typography><img src={TechBlog} alt="TechBlog" width="200px" height="150px" /> <br/></Typography>
-                        </Paper>
+                            <img src={TechBlog} width="150px" height="150px" />
+                        <Typography variant="subtitle1" gutterBottom>
+                            Will be released every Sunday
+                        </Typography>
+                    </Paper>
                 </Container>
 
         </div>
