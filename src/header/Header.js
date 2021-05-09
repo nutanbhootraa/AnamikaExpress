@@ -1,12 +1,15 @@
 import './Header.css';
 import header from './header.jpg';
-import { GiPoliceBadge } from "react-icons/gi";
+import HomeIcon from '@material-ui/icons/Home';
 
 function Header() {
   return (
       <div className="header" style={{backgroundImage: `url(${header})`}}>
-          <div className="siteName"><b>Anamika Express</b>
-              <GiPoliceBadge />
+          <div className="siteName">
+              <b>Anamika Express</b>
+              <div style={{float:'right', paddingRight:'2.5%'}}>
+                <HomeIcon fontSize="large"/>
+              </div>
           </div>
 
           <div className="author">
