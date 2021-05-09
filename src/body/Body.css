@@ -1,3 +1,9 @@
 .meta{
     color: black;
+    box-shadow: black;
+    display: block;
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 5px;
 }
+
