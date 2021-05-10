@@ -24,7 +24,6 @@ const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
         flexDirection: 'column',
-        minHeight: '100vh',
     },
     main: {
         marginTop: theme.spacing(8),
@@ -39,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
     sidebarAboutBox: {
         padding: theme.spacing(2),
         backgroundColor: theme.palette.grey[200],
+        boxShadow: theme.shadows[6],
     },
     sidebarSection: {
         marginTop: theme.spacing(3),
@@ -55,7 +55,7 @@ function Footer() {
             <footer className={classes.footer}>
                 <Container maxWidth="sm" align="center">
                     <Grid item xs={12} md={4}>
-                        <Paper elevation={0} className={classes.sidebarAboutBox} >
+                        <Paper elevation={0} className={classes.sidebarAboutBox}>
                             <Typography variant="h6" gutterBottom>
                                 Author :
                             </Typography>

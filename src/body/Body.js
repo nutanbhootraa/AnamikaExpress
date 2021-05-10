@@ -8,6 +8,7 @@ import ALL from './ALL.png';
 import ShortStories from './ShortStories.png';
 import Puzzles from './Puzzles.png';
 import TechBlog from './TechBlog.png';
+import LateNightRandomThoughts from './LateNightRandomThoughts.png';
 
 const useStyles = makeStyles((theme) => ({
     mainClass: {
@@ -18,35 +19,42 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
+
 function Body() {
     const classes = useStyles();
 
     return (
         <div className={classes.mainClass}>
 
-                <Container maxWidth="sm" align="center">
+                <Container maxWidth="xs" align="center" display="inline">
                     <h1>Categories</h1>
                         <Paper elevation={3} variant='outlined' >
-                            <img src={ALL} width="150px" height="150px" />
+                            <img src={ALL} alt="ALL" width="150px" height="150px" />
                         </Paper>
                     <Paper elevation={3} variant='outlined' >
-                            <img src={ShortStories} width="150px" height="150px" />
+                            <img src={ShortStories} alt="ShortStories" width="150px" height="150px" />
                         <Typography variant="subtitle1" gutterBottom>
                             Will be released every Friday and Saturday
                         </Typography>
 
                         </Paper>
                     <Paper elevation={3} variant='outlined' >
-                            <img src={Puzzles} width="150px" height="150px" />
+                            <img src={Puzzles} alt="Puzzles" width="150px" height="150px" />
                         <Typography variant="subtitle1" gutterBottom>
                             Will be released every Wednesday
                         </Typography>
 
                     </Paper>
                     <Paper elevation={3} variant='outlined' >
-                            <img src={TechBlog} width="150px" height="150px" />
+                            <img src={TechBlog} alt="TechBlog" width="150px" height="150px" />
                         <Typography variant="subtitle1" gutterBottom>
                             Will be released every Sunday
+                        </Typography>
+                    </Paper>
+                    <Paper elevation={3} variant='outlined' >
+                            <img src={LateNightRandomThoughts} alt="LateNightRandomThoughts" width="150px" height="150px" />
+                        <Typography variant="subtitle1" gutterBottom>
+                            Will be released every day
                         </Typography>
                     </Paper>
                 </Container>
