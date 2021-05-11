@@ -1,16 +1,15 @@
 import './Body.css';
-import React from 'react';
+import React, {useState} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import MenuItem from "@material-ui/core/MenuItem";
 import Button from "@material-ui/core/Button";
-import Menu from "@material-ui/core/Menu";
-import Select from "@material-ui/core/Select";
 import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import BlogList from '../blogs/BlogList';
 
 const useStyles = makeStyles((theme) => ({
     mainClass: {
-        boxShadow: theme.shadows[6],
+        boxShadow: theme.shadows[0],
         backgroundColor:"light grey",
         padding: theme.spacing(3),
     },
@@ -25,38 +24,26 @@ const useStyles = makeStyles((theme) => ({
 function Body() {
     const classes = useStyles();
 
-    const [anchorEl, setAnchorEl] = React.useState(null);
-    const [category, setCategory] = React.useState('All');
-
-    const handleClose = () => {
-        setAnchorEl(null);
-        setCategory('All');
-    };
-
-    const handleClick = (event) => {
-        setAnchorEl(event.currentTarget);
-        setCategory(event.currentTarget.value);
-    };
     const listOfCategories = [
         {
             id: '1',
-            category: 'All',
+            categoryName: 'All',
         },
         {
             id: '2',
-            category: 'Short Stories',
+            categoryName: 'Short Stories',
         },
         {
             id: '3',
-            category: 'Puzzles',
+            categoryName: 'Puzzles',
         },
         {
             id: '4',
-            category: 'Tech Blog',
+            categoryName: 'Tech Blog',
         },
         {
             id: '5',
-            category: 'Random Thoughts',
+            categoryName: 'Random Thoughts',
         },
     ];
 
@@ -87,74 +74,54 @@ function Body() {
             title: 'My 1st flight journey',
         },
         {
-            id: '5',
+            id: '6',
             category: 'Short Stories',
             title: 'Who am I?',
         },
         {
-            id: '5',
+            id: '7',
             category: 'Short Stories',
             title: '3 mentors of my life',
         },
         {
-            id: '5',
+            id: '8',
             category: 'Short Stories',
             title: 'Let me breathe; please set me free',
         },
         {
-            id: '5',
+            id: '9',
             category: 'Short Stories',
             title: 'Independent India : A crossword puzzle',
         },
         {
-            id: '5',
+            id: '10',
             category: 'Short Stories',
             title: 'Lockdown Thoughts : Privilege of what I want over what I need',
         },
         {
-            id: '5',
+            id: '11',
             category: 'Short Stories',
             title: 'क्या हम वाकई स्वतंत्र हैं',
         },
         {
-            id: '5',
+            id: '12',
             category: 'Short Stories',
             title: 'A Thought',
         },
     ];
 
+    const [currentCategory, setCategory] = useState("All");
+
     return (
         <div className={classes.mainClass}>
-            <Container maxWidth="xs" align="center" display="inline">
-            <Button
-                aria-controls="simple-menu"
-                aria-haspopup="true"
-                onClick={handleClick}
-                style={{backgroundColor:'coral'}}
-            >
-                {category}
-            </Button>
 
-            <Menu
-                keepMounted
-                anchorEl={anchorEl}
-                onClose={handleClose}
-                open={Boolean(anchorEl)}
-            >
-                {listOfCategories.map((category) => (
-                    <MenuItem onClick={handleClose}>{category.category}</MenuItem>
-                ))}
-            </Menu>
-            </Container>
+            <Grid container spacing={1} direction="row" justify="center" alignItems="center">
+                    {listOfCategories.map((category) => (
+                            <Button onClick={() => setCategory(category.categoryName)}>  {category.categoryName} </Button>
+                    ))}
+            </Grid>
 
-            <Container>
-                {listOfBlogs.map((blog) => (
-                    <Paper elevation={3} className={classes.sidebarAboutBox}>
-                        {blog.title}
-                    </Paper>
-                ))}
-            </Container>
-
+            <BlogList category={currentCategory} listOfBlogs={listOfBlogs} classes={useStyles()}/>
 
         </div>
     );

@@ -25,10 +25,6 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexDirection: 'column',
     },
-    main: {
-        marginTop: theme.spacing(8),
-        marginBottom: theme.spacing(2),
-    },
     footer: {
         padding: theme.spacing(3, 2),
         marginTop: 'auto',
@@ -38,11 +34,8 @@ const useStyles = makeStyles((theme) => ({
     sidebarAboutBox: {
         padding: theme.spacing(2),
         backgroundColor: theme.palette.grey[200],
-        boxShadow: theme.shadows[6],
-    },
-    sidebarSection: {
-        marginTop: theme.spacing(3),
-    },
+        boxShadow: theme.shadows[1],
+    }
 }));
 
 
