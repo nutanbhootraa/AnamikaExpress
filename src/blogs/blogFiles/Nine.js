@@ -16,18 +16,18 @@ const Nine = () => {
 
                     Easy :<br/>
 
-                    <img key={1} src={process.env.PUBLIC_URL +'blogImages/puzzle11.jpeg'} alt="1" width="200" height="200"/> <br/>
+                    <img key={1} src={'blogImages/puzzle11.jpeg'} alt="1" width="200" height="200"/> <br/>
 
                     Medium :<br/>
-                    <img key={1} src={process.env.PUBLIC_URL +'blogImages/puzzle12.jpeg'} alt="1" width="200" height="300"/> <br/>
+                    <img key={1} src={'blogImages/puzzle12.jpeg'} alt="1" width="200" height="300"/> <br/>
 
 
                     Hard :<br/>
-                    <img key={1} src={process.env.PUBLIC_URL +'blogImages/puzzle13.jpeg'} alt="1" width="300" height="300"/> <br/>
+                    <img key={1} src={'blogImages/puzzle13.jpeg'} alt="1" width="300" height="300"/> <br/>
 
 
                     Try to solve (hint : try to solve by eliminate method as shown in above pictures): <br/>
-                    <img key={1} src={process.env.PUBLIC_URL +'blogImages/puzzle14.png'} alt="1" width="300" height="300"/> <br/>
+                    <img key={1} src={'blogImages/puzzle14.png'} alt="1" width="300" height="300"/> <br/>
 
                     Have a happy week <Twemoji svg text=" 🤗🤗" />
                 </p>

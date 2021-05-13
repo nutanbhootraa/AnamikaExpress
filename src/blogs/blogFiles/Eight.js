@@ -29,7 +29,7 @@ const Eight = () => {
 
                     I rushed to my gate. I did not do shopping this time. I waited for 7 hours there for my next flight. This time I did not miss my flight.<br/><br/>
 
-                   <img key={1} src={process.env.PUBLIC_URL +'blogImages/uff.jpg'} alt="1" width="100" height="100"/> <br/>
+                   <img key={1} src={'blogImages/uff.jpg'} alt="1" width="100" height="100"/> <br/>
 
 
                 </p>
