@@ -27,6 +27,8 @@ jobs:
       - uses: fregante/setup-git-user@v1
 
       # Runs a single command using the runners shell
+      - run: git config user.email "bhootra1993@gmail.com"
+      - run: git config user.name "nutan bhootra"
       - run: npm install
         env:
           CI: false
@@ -36,4 +38,3 @@ jobs:
       - run: npm run deploy
         env:
           CI: false
-        
