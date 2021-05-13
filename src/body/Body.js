@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     mainClass: {
         boxShadow: theme.shadows[0],
         backgroundColor:"light grey",
-        padding: theme.spacing(3),
+
     },
     sidebarAboutBox: {
         padding: theme.spacing(2),
