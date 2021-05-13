@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 const Five = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeefff"}} width="75%">
+            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
                 <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
                     guru govind dou khade, kake laagu pay<br/>
                     balihari guru aapne govind dio batay<br/>

@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 const One = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeefff"}} width="75%">
+            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
                 <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
 
                     कहने को भारत को स्वतंत्रता मिले 71 साल हो गए हैं, पर कुछ घटनाएँ सोचने को मजबूर कर देती हैं की क्या हम वाकई स्वतंतरा हो गए हैं| उनमें से कुछ उदाहरण मैं यहा लिखने जा रही हूँ | <br/>

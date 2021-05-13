@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 const Six = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeefff"}} width="75%">
+            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
                 <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
                     Many people wonder who are they? But not many of us know the answer.<br/><br/>
 

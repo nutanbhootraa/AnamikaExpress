@@ -52,10 +52,10 @@ const ShowBlog = (props) => {
 
      return (
          <div>
-             <Grid align="center" style={{backgroundColor:"#eeefff"}}>
+             <Grid align="center" style={{backgroundColor:"#eeeeee"}}>
                  <img key={props.blog.id} src={'blogImages'+ props.blog.src} title={props.blog.title} alt={props.blog.title} width="100" height="100"/>
              </Grid>
-             <Grid align="center" style={{backgroundColor:"#eeefff"}}>
+             <Grid align="center" style={{backgroundColor:"#eeeeee"}}>
                  {show(props.blog.id)}
              </Grid>
          </div>

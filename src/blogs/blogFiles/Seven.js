@@ -5,7 +5,7 @@ import {Twemoji} from 'react-emoji-render';
 const Seven = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeefff"}} width="75%">
+            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
                 <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
                     It was December 2015, for my winter vacation from college, I have decided to go home by flight. I was so excited as this was my 1st-time experience in flight. As soon as I have booked the ticket, I started packing my luggage, packed 2 bags, 1 laptop bag, 1 carry bag, and whatnot, as you all know how much we, girls like to carry with us. When my friend came to my room, she said, I think only 15 kilograms are allowed in flight please check and unpack everything. When I checked, she was right. I could only carry 15 kilograms in baggage and 7 kilograms with me in a carry bag. I have unpacked everything and put only important stuff.<br/><br/>
 

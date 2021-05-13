@@ -5,7 +5,7 @@ import {Twemoji} from 'react-emoji-render';
 const Nine = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeefff"}} width="75%">
+            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
                 <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
                     Challenge : Create a single loop by connecting horizontally and vertically adjacent dots with lines.<br/><br/>
 

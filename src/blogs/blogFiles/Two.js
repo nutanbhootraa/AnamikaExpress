@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 const Two = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeefff"}} width="75%">
+            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
                 <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
                     I think, this lockdown brought a chef, gym instructor, motivation speaker, etc. out of everyone.<br/><br/>
 
