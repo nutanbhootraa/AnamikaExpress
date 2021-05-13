@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 function Body() {
     const classes = useStyles();
 
-    const [currentCategory, setCategory] = useState("All");
+    const [currentCategory, setCategory] = useState("Short Stories");
 
     return (
         <div className={classes.mainClass}>
