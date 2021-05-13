@@ -29,5 +29,5 @@ jobs:
      
       - run: npm install
       - run: npm run deploy
-Process: env: CI:'' npm run build
+env: CI:'' npm run build
          
