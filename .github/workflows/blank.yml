@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - run: npm install
-      - run: CI= npm run build
+      - run: npm run build
       - run: npm run deploy
         
