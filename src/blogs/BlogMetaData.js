@@ -2,7 +2,7 @@ const listOfBlogs = [
     {
         id: '12',
         category: 'Short Stories',
-        title: 'Kusch kuch hota hai 20 : trailer',
+        title: 'Kuch kuch hota hai 20 : trailer',
         src: '/kkhh.jpg',
     },
     {
