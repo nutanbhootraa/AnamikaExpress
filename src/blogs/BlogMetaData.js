@@ -1,5 +1,11 @@
 const listOfBlogs = [
     {
+        id: '13',
+        category:'Puzzles',
+        title:'Puzzle 2 : Bridge Building',
+        src: '/puzzle1.jpg',
+    },
+    {
         id: '12',
         category: 'Short Stories',
         title: 'Kuch kuch hota hai 20 : trailer',

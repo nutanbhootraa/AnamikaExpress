@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Grid from '@material-ui/core/Grid';
 import ShowBlog from "./ShowBlog";
 import AddCircleIcon from '@material-ui/icons/AddCircle';
-
+import RandomThoughts from './RandomThoughts';
 class BlogList extends Component{
 
     constructor(props) {
@@ -51,7 +51,7 @@ class BlogList extends Component{
                         </Grid>
                     ))}
             </div>
-            :
+            : this.props.category === 'Random Thoughts' ? <RandomThoughts/> :
             <div className={this.props.classes.mainClass}>
             {this.props.listOfBlogs.filter(blog => (blog.category === this.props.category) ).map((blog) => (
                 <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} >

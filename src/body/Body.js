@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     mainClass: {
         boxShadow: theme.shadows[0],
         backgroundColor:"light grey",
+        minHeight:'200px'
 
     },
     sidebarAboutBox: {

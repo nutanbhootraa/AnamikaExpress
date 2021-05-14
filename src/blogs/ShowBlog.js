@@ -13,6 +13,7 @@ import Nine from './blogFiles/Nine';
 import Ten from './blogFiles/Ten';
 import Eleven from './blogFiles/Eleven';
 import Twelve from './blogFiles/Twelve';
+import Thirteen from './blogFiles/Thirteen';
 
 
 const ShowBlog = (props) => {
@@ -47,6 +48,8 @@ const ShowBlog = (props) => {
             return <Eleven/>
         }if(id==12) {
             return <Twelve/>
+        }if(id==13) {
+            return <Thirteen/>
         }
     }
 

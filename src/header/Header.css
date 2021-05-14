@@ -1,4 +1,23 @@
 .logo {
   display: flex;
   justify-content: center;
+  background-image: url("./matrix2.jpeg");
+  min-height: 200px;
+  float: inherit;
+  background-position-y: top;
+}
+
+h1 {
+  background-color:#000000;
+  overflow:hidden;
+  font-family:arial;
+  color:#ffffff;
+}
+h2 {
+  background-color:#000000;
+  overflow:hidden;
+  display:inline-block;
+  font-weight:bold;
+  font-family:arial;
+  color: #ffffff;
 }
