@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import BlogList from '../blogs/BlogList';
 import categories from '../categories/Categories';
 import blogs from '../blogs/BlogMetaData';
+import Latest from './Latest';
 
 const useStyles = makeStyles((theme) => ({
     mainClass: {
@@ -35,6 +36,8 @@ function Body() {
                             <Button onClick={() => setCategory(category.categoryName)}>  {category.categoryName} </Button>
                     ))}
             </Grid>
+
+            <Latest  category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
 
             <BlogList category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
 
