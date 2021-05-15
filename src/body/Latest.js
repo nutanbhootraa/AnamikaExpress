@@ -37,7 +37,7 @@ class Latest extends Component{
                     <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} align="center">
                         <Grid container direction={'row'} spacing={24}>
                             <Grid item xl={6} md={6} sm={12} xs={12} align="center">
-                                <h2>Latest Post</h2>
+                                <h2>Latest Post : Clean code</h2>
                             </Grid>
                             <Grid item xl={6} md={6} sm={12} xs={12} align="right">
                                 <AddCircleIcon style={{ fontSize: 30 }} onClick={this.handleClick.bind(this, this.props.listOfBlogs[0].id, lengthOfArray)}/>
