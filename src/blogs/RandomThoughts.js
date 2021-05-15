@@ -8,16 +8,18 @@ const RandomThoughts = () => {
     const handleChange = (event, value) => {
         setPage(value);
     };
+    const noOfThoughtsPerPage = 5;
+    const noOfPages= Math.floor(listOfThoughts.length/noOfThoughtsPerPage) + 1;
     return (
         <div>
-            <Pagination count={10} page={page} onChange={handleChange}/>
+            <Pagination count={noOfPages} page={page} onChange={handleChange}/>
 
-            {listOfThoughts.filter(thought => (thought.id >= (page-1)*5 & thought.id < (page)*5 )).map((thought) => (
+            {listOfThoughts.filter(thought => (thought.id >= (page-1)* noOfThoughtsPerPage & thought.id < (page)* noOfThoughtsPerPage )).map((thought) => (
                 <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
                     {thought.show}
                 </Grid>
             ))}
-
+            <Pagination count={noOfPages} page={page} onChange={handleChange}/>
         </div>
     );
 }

@@ -34,7 +34,7 @@ class Latest extends Component{
         }
         return (
                 <div className={this.props.classes.mainClass} style={{minHeight:'175px'}}>
-                    <Grid container elevation={3} className={this.props.classes.sidebarAboutBox}>
+                    <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} align="center">
                         <Grid container direction={'row'} spacing={24}>
                             <Grid item xl={6} md={6} sm={12} xs={12} align="center">
                                 <h2>Latest Post</h2>

@@ -12,8 +12,16 @@ import Ten from './blogFiles/Ten';
 import Eleven from './blogFiles/Eleven';
 import Twelve from './blogFiles/Twelve';
 import Thirteen from './blogFiles/Thirteen';
+import Fourteen from './blogFiles/Fourteen';
 
 const listOfBlogs = [
+    {
+        id: '14',
+        category:'Tech Blog',
+        title:'Clean Code : Part 1',
+        src: '/cleancode.jpg',
+        show: <Fourteen />
+    },
     {
         id: '13',
         category:'Puzzles',
