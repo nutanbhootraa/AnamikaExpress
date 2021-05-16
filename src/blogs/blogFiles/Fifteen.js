@@ -35,7 +35,7 @@ const Fifteen = () => {
                         </li>
                         <li> Make Meaningful Distinctions
                             <ul>
-                                <li>Number-series naming (a1,a2, ..., aN) is the opposite of intentional naming. Such names are not disinformative, const
+                                <li>Number-series naming (a1,a2, ..., aN) is the opposite of intentional naming. Such names are not disinformative,
                                     They are non-informative. They provide no clue about author's intentions. For example : <br/>
                                     int a[];
 
@@ -72,8 +72,8 @@ const Fifteen = () => {
                         <li>Avoid Encoding
                             <ul>
                                 <li>Don't add -m prefix to member variables<br/>
-                                    mNoOfPeopleInSociety <ClearIcon color="secondary"/> <br/>
-                                    noOfPeopleInSociety<CheckIcon color="primary"/>
+                                    int mNoOfPeopleInSociety <ClearIcon color="secondary"/> <br/>
+                                    int noOfPeopleInSociety<CheckIcon color="primary"/>
                                 </li>
                                 <li>Don't add I prefix for interface or abstract class.<br/>
                                    interface : IPersonFactory, implemented class : PersonFactory <ClearIcon color="secondary"/> <br/>
@@ -82,9 +82,9 @@ const Fifteen = () => {
                             </ul>
                         </li>
                         <li>Avoid Mental Mapping
-                        <p>
+                        <p> <b><i>Clarity is king. </i></b>
                             Don't assume a variable name is self-understood.
-                            <b><i>Clarity is king.</i></b> Write code that others can understand.
+                            Write code that others can understand.
                         </p>
                         </li>
                         <li>A class name should not be a verb, it should be noun or noun phrase names.<br/>
@@ -93,16 +93,16 @@ const Fifteen = () => {
                         </li>
                         <li>A method name should have verb or verb phrase names.<br/>
                             getName() <CheckIcon color="primary"/><br/>
-                            Accounting, Processor, Manager, Managing <ClearIcon color="secondary"/>
+                            nameInfo() <ClearIcon color="secondary"/>
                         </li>
-                        <li>Accessors, Mutators or Predicated should be named for their value and prefixed with get, set oor is, according to the javabean standards.</li>
+                        <li>Accessors, Mutators or Predicated should be named for their value and prefixed with get, set or is, according to the javabean standards.</li>
                         <li>Don't Be Cute <ClearIcon color="secondary"/><ClearIcon color="secondary"/>
                         <p>whack(), holyHandGrenade() <ClearIcon color="secondary"/><br/>
                         kill(), deleteItems() <CheckIcon color="primary"/>
                         </p>
                         </li>
                         <li>Pick One Word Per Concept
-                        <p> For instance, it's confusing to have fetch, retrieve and get as equivalent methods of different classes. How will you remember which method name goes with which class?</p>
+                        <p> For instance, it's confusing to have fetch, retrieve and get as equivalent methods of different classes, for fetching data. How will you remember which method name goes with which class?</p>
                         </li>
                         <li>Don't Pun
                         <p>For instance, add() method can be used for insert() and append(), but don't use add() method here.</p>
