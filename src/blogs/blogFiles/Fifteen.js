@@ -108,9 +108,19 @@ const Fifteen = () => {
                         <p>For instance, add() method can be used for insert() and append(), but don't use add() method here.</p>
                         </li>
                     </ol>
-
-
                 </p>
+            </Grid>
+            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
+                Try to understand the following code, rectify what we have learned in this chapter. <br/>
+                <a href="/attachments/meaningfulNames_BadCode.txt" download="Bad Code">
+                    Bad Code
+                </a>
+            </Grid>
+            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
+                Rectified code : (Try to rectify by yourself first)<br/>
+                <a href="/attachments/meaningfulNames_GoodCode.txt" download="Good Code">
+                    Good Code
+                </a>
             </Grid>
         </div>
     );
