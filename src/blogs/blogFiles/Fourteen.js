@@ -10,8 +10,11 @@ const Eleven = () => {
                     <ul>
                         <li>You are a programmer </li>
                         <li> You want to be a better programmer </li>
-                        <li> Code will always be there. If you think that one dat code will disappear, then you are wrong. We will never get rid of code, becaue code represents the details
-                            of the requirements. At some level details can't be ignored or abstracted. They have to be specified. Specifying requirement in such detailthat a machine can execute them is <i>programming</i>. such a specification is <i>code</i>.  </li>
+                        <li> Code will always be there. If you think that one dat code will disappear, then you are wrong.
+                            We will never get rid of code, because code represents the details
+                            of the requirements. At some level details can't be ignored or abstracted.
+                            They have to be specified. Specifying requirement in such detail
+                            that a machine can execute them is <i>programming</i>. such a specification is <i>code</i>.  </li>
                         <li> Never write bad code. Never hurry in writing code. Later equals never. </li>
                         <li>The total cost of owning a mess : More tangles, more twists, more time and hence more effort. </li>
                         <li> Redesigning a code costs more. Better do good design & code first time. </li>
