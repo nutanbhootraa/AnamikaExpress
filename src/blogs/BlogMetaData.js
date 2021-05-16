@@ -13,8 +13,16 @@ import Eleven from './blogFiles/Eleven';
 import Twelve from './blogFiles/Twelve';
 import Thirteen from './blogFiles/Thirteen';
 import Fourteen from './blogFiles/Fourteen';
+import Fifteen from './blogFiles/Fifteen';
 
 const listOfBlogs = [
+    {
+        id: '15',
+        category:'Tech Blog',
+        title:'Clean Code : Meaningful Names',
+        src: '/cleancode.jpg',
+        show: <Fifteen />
+    },
     {
         id: '14',
         category:'Tech Blog',

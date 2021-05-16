@@ -39,6 +39,7 @@ class Latest extends Component{
                                 <Typography variant="h4" color="secondary">
                                     <b> Latest Post </b>
                                 </Typography>
+                                <h3>{this.props.listOfBlogs[0].category}</h3>
                                 <h3>{this.props.listOfBlogs[0].title}</h3>
                             </Grid>
                             <Grid item>

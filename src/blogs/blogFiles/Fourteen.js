@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 
-const Eleven = () => {
+const Fourteen = () => {
     return (
         <div>
             <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
@@ -32,4 +32,4 @@ const Eleven = () => {
     );
 }
 
-export default Eleven;
+export default Fourteen;
