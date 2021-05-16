@@ -31,13 +31,12 @@ function Body() {
     return (
         <div className={classes.mainClass}>
 
-            <Grid container spacing={1} direction="row" justify="center" alignItems="center">
+            <Latest  category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
+            <Grid container spacing={1} justify="center" alignItems="center" style={{minHeight:"50px"}}>
                     {categories.map((category) => (
-                            <Button onClick={() => setCategory(category.categoryName)}>  {category.categoryName} </Button>
+                            <Button onClick={() => setCategory(category.categoryName)} color="secondary" >  {category.categoryName} </Button>
                     ))}
             </Grid>
-
-            <Latest  category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
 
             <BlogList category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
 

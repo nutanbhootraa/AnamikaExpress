@@ -33,9 +33,7 @@ class Latest extends Component{
             this.state.isToggleOn.push(false);
         }
         return (
-                <div className={this.props.classes.mainClass} style={{minHeight:'175px'}}>
-                    <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} align="center">
-                        <Grid container direction={'column'} spacing={24}>
+                    <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} align="center" direction={'column'}>
                             <Grid item>
                                 <h2>Latest Post :</h2> <h3>{this.props.listOfBlogs[0].title}</h3>
                             </Grid>
@@ -44,8 +42,6 @@ class Latest extends Component{
                                     Read more
                                 </Button>
                             </Grid>
-                        </Grid>
-                        <Grid container>
                             {this.state.isToggleOn[this.props.listOfBlogs[0].id] ?
                                 <div>
                                     <Grid item xl={6} md={6} sm={12} xs={12}>
@@ -53,10 +49,7 @@ class Latest extends Component{
                                     </Grid>
                                 </div>
                                 : null}
-                            </Grid>
                         </Grid>
-                </div>
-
         );
     }
 }
