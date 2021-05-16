@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Grid from '@material-ui/core/Grid';
 import ShowBlog from "./ShowBlog";
-import AddCircleIcon from '@material-ui/icons/AddCircle';
+import Button from '@material-ui/core/Button';
 import RandomThoughts from './RandomThoughts';
 class BlogList extends Component{
 
@@ -36,14 +36,17 @@ class BlogList extends Component{
         this.props.category === 'All' ?
             <div className={this.props.classes.mainClass}>
                     {this.props.listOfBlogs.map((blog) => (
-                        <Grid container elevation={3} className={this.props.classes.sidebarAboutBox}>
-                            <Grid container direction={'row'} spacing={24}>
-                                <Grid item xl={6} md={6} sm={12} xs={12}>
-                                    <h3>{blog.title}</h3>
-                                </Grid>
-                                <Grid item xl={6} md={6} sm={12} xs={12} align="right">
-                                    <AddCircleIcon style={{ fontSize: 30 }} onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}/>
-                                </Grid>
+                        <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} direction={'column'} align="center">
+                            <Grid style={{backgroundColor:"#eeeeee"}}>
+                                <img key={blog.id} src={'blogImages'+ blog.src} title={blog.title} alt={blog.title} width="200" height="200"/>
+                            </Grid>
+                            <Grid item>
+                                <h3>{blog.title}</h3>
+                            </Grid>
+                            <Grid item>
+                                <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
+                                    Read more
+                                </Button>
                             </Grid>
                             <Grid container>
                                 {this.state.isToggleOn[blog.id] ? <ShowBlog blog={blog}/> : null}
@@ -54,14 +57,17 @@ class BlogList extends Component{
             : this.props.category === 'Random Thoughts' ? <RandomThoughts/> :
             <div className={this.props.classes.mainClass}>
             {this.props.listOfBlogs.filter(blog => (blog.category === this.props.category) ).map((blog) => (
-                <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} >
-                    <Grid container direction={'row'} spacing={24}>
-                        <Grid item xl={6} md={6} sm={12} xs={12} >
-                            <h3>{blog.title}</h3>
-                        </Grid>
-                        <Grid item xl={6} md={6} sm={12} xs={12} align="right">
-                            <AddCircleIcon style={{ fontSize: 30 }} onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}/>
-                        </Grid>
+                <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} direction={'column'} align="center">
+                    <Grid style={{backgroundColor:"#eeeeee"}}>
+                        <img key={blog.id} src={'blogImages'+ blog.src} title={blog.title} alt={blog.title} width="200" height="200"/>
+                    </Grid>
+                    <Grid item>
+                        <h3>{blog.title}</h3>
+                    </Grid>
+                    <Grid item>
+                        <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
+                            Read more
+                        </Button>
                     </Grid>
                     <Grid container>
                         {this.state.isToggleOn[blog.id] ? <ShowBlog blog={blog}/> : null}

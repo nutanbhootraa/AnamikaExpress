@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Grid from '@material-ui/core/Grid';
-import AddCircleIcon from '@material-ui/icons/AddCircle';
+import Button from '@material-ui/core/Button';
 import ShowBlog from '../blogs/ShowBlog';
 
 class Latest extends Component{
@@ -35,20 +35,19 @@ class Latest extends Component{
         return (
                 <div className={this.props.classes.mainClass} style={{minHeight:'175px'}}>
                     <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} align="center">
-                        <Grid container direction={'row'} spacing={24}>
-                            <Grid item xl={6} md={6} sm={12} xs={12} align="center">
-                                <h2>Latest Post : Clean code</h2>
+                        <Grid container direction={'column'} spacing={24}>
+                            <Grid item>
+                                <h2>Latest Post :</h2> <h3>{this.props.listOfBlogs[0].title}</h3>
                             </Grid>
-                            <Grid item xl={6} md={6} sm={12} xs={12} align="right">
-                                <AddCircleIcon style={{ fontSize: 30 }} onClick={this.handleClick.bind(this, this.props.listOfBlogs[0].id, lengthOfArray)}/>
+                            <Grid item>
+                                <Button onClick={this.handleClick.bind(this, this.props.listOfBlogs[0].id, lengthOfArray)} color="primary" variant="contained">
+                                    Read more
+                                </Button>
                             </Grid>
                         </Grid>
                         <Grid container>
                             {this.state.isToggleOn[this.props.listOfBlogs[0].id] ?
                                 <div>
-                                    <Grid item xl={6} md={6} sm={12} xs={12} align="center">
-                                        <h3>{this.props.listOfBlogs[0].title}</h3>
-                                    </Grid>
                                     <Grid item xl={6} md={6} sm={12} xs={12}>
                                         <ShowBlog blog={this.props.listOfBlogs[0]}/>
                                     </Grid>
