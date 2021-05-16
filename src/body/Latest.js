@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 import ShowBlog from '../blogs/ShowBlog';
 
 class Latest extends Component{
@@ -35,7 +36,10 @@ class Latest extends Component{
         return (
                     <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} align="center" direction={'column'}>
                             <Grid item>
-                                <h2>Latest Post :</h2> <h3>{this.props.listOfBlogs[0].title}</h3>
+                                <Typography variant="h4" color="secondary">
+                                    <b> Latest Post </b>
+                                </Typography>
+                                <h3>{this.props.listOfBlogs[0].title}</h3>
                             </Grid>
                             <Grid item>
                                 <Button onClick={this.handleClick.bind(this, this.props.listOfBlogs[0].id, lengthOfArray)} color="primary" variant="contained">
