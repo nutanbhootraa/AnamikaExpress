@@ -22,11 +22,15 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
+const getCategory = () => {
+    const url = window.location.href;
+    return categories.filter(category => url.includes(category.link)).map(category => category.categoryName)[0];
+}
 
 function Body() {
     const classes = useStyles();
 
-    const [currentCategory, setCategory] = useState("Short Stories");
+    const [currentCategory, setCategory] = useState(getCategory());
 
     return (
         <div className={classes.mainClass}>
