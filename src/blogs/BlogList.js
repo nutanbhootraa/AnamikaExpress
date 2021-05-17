@@ -3,8 +3,6 @@ import Grid from '@material-ui/core/Grid';
 import ShowBlog from "./ShowBlog";
 import Button from '@material-ui/core/Button';
 import RandomThoughts from './RandomThoughts';
-import { HashLink as Link} from 'react-router-hash-link';
-import smoothscroll from 'smoothscroll-polyfill';
 
 class BlogList extends Component{
 
@@ -14,7 +12,6 @@ class BlogList extends Component{
             isToggleOn : [],
         };
         this.handleClick = this.handleClick.bind(this);
-        smoothscroll.polyfill();
     }
 
     handleClick= (id, length) => {
@@ -46,7 +43,7 @@ class BlogList extends Component{
         this.props.category.categoryName === 'All' ?
             <div className={this.props.classes.mainClass}>
                     {this.props.listOfBlogs.map((blog) => (
-                        <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} direction={'column'} align="center" id={'/'+this.props.category.link + '/' +blog.link}>
+                        <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} direction={'column'} align="center" id={'/'+this.props.category.link+'/' +blog.link}>
                             <Grid style={{backgroundColor:"#eeeeee"}}>
                                 <img key={blog.id} src={'blogImages'+ blog.src} title={blog.title} alt={blog.title} width="200" height="200"/>
                             </Grid>
@@ -54,11 +51,11 @@ class BlogList extends Component{
                                 <h3>{blog.title}</h3>
                             </Grid>
                             <Grid item>
-                                <Link smooth to={'/'+this.props.category.link + '/' +blog.link} replace style={{textDecoration:'none'}}>
+                                <a href={'/#/'+this.props.category.link+'/' +blog.link} style={{textDecoration:'none'}}>
                                 <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
                                     Read more
                                 </Button>
-                                </Link>
+                                </a>
                             </Grid>
                             <Grid container>
                                 {this.state.isToggleOn[blog.id] ? <ShowBlog blog={blog}/> : null}
@@ -71,7 +68,7 @@ class BlogList extends Component{
 
             <div className={this.props.classes.mainClass}>
             {this.props.listOfBlogs.filter(blog => (blog.category === this.props.category.categoryName) ).map((blog) => (
-                <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} direction={'column'} align="center" id={'/'+this.props.category.link + '/' +blog.link}>
+                <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} direction={'column'} align="center" id={'/'+this.props.category.link+'/' +blog.link}>
                     <Grid style={{backgroundColor:"#eeeeee"}}>
                         <img key={blog.id} src={'blogImages'+ blog.src} title={blog.title} alt={blog.title} width="200" height="200"/>
                     </Grid>
@@ -79,11 +76,11 @@ class BlogList extends Component{
                         <h3>{blog.title}</h3>
                     </Grid>
                     <Grid item>
-                        <Link smooth to={'/'+this.props.category.link + '/' +blog.link} replace style={{textDecoration:'none'}}>
+                        <a href={'/#/'+this.props.category.link+'/' +blog.link} style={{textDecoration:'none'}}>
                         <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
                                 Read more
                         </Button>
-                        </Link>
+                        </a>
                     </Grid>
                     <Grid container>
                         {this.state.isToggleOn[blog.id] ? <ShowBlog blog={blog}/> : null}
