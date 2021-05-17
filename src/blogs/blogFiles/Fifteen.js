@@ -95,7 +95,7 @@ const Fifteen = () => {
                             getName() <CheckIcon color="primary"/><br/>
                             nameInfo() <ClearIcon color="secondary"/>
                         </li>
-                        <li>Accessors, Mutators or Predicated should be named for their value and prefixed with get, set or is, according to the javabean standards.</li>
+                        <li>Accessors, Mutators or Predicates should be named for their value and prefixed with get, set or is, according to the javabean standards.</li>
                         <li>Don't Be Cute <ClearIcon color="secondary"/><ClearIcon color="secondary"/>
                         <p>whack(), holyHandGrenade() <ClearIcon color="secondary"/><br/>
                         kill(), deleteItems() <CheckIcon color="primary"/>
