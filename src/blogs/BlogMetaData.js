@@ -17,116 +17,132 @@ import Fifteen from './blogFiles/Fifteen';
 
 const listOfBlogs = [
     {
-        id: '15',
+        id: 15,
         category:'Tech Blog',
         title:'Clean Code : Meaningful Names',
         src: '/cleancode.jpg',
-        show: <Fifteen />
+        show: <Fifteen />,
+        link: 'meaningfulnames',
     },
     {
-        id: '14',
+        id: 14,
         category:'Tech Blog',
         title:'Clean Code : Part 1',
         src: '/cleancode.jpg',
-        show: <Fourteen />
+        show: <Fourteen />,
+        link: 'whycleancode',
     },
     {
-        id: '13',
+        id: 13,
         category:'Puzzles',
         title:'Puzzle 2 : Bridge Building',
         src: '/puzzle1.jpg',
-        show: <Thirteen />
+        show: <Thirteen />,
+        link: 'bridgebuilder',
     },
     {
-        id: '12',
+        id: 12,
         category: 'Short Stories',
         title: 'Kuch kuch hota hai 20 : trailer',
         src: '/kkhh.jpg',
-        show: <Twelve />
+        show: <Twelve />,
+        link: 'kkhh20trailer',
     },
     {
-        id: '11',
+        id: 11,
         category: 'Short Stories',
         title: 'Why women can\'t keep secrets',
         src: '/womenSecrets.jpg',
-        show: <Eleven />
+        show: <Eleven />,
+        link: 'womencantkeepsecrets',
     },
     {
-        id: '10',
+        id: 10,
         category: 'Short Stories',
         title: 'Mental Health : A Luxury Today?',
         src: '/depression.jpeg',
-        show: <Ten />
+        show: <Ten />,
+        link: 'mentalhealth',
     },
     {
-        id: '9',
+        id: 9,
         category: 'Puzzles',
         title: 'Puzzle 1 : Slitherlink',
         src: '/puzzle1.jpg',
-        show: <Nine />
+        show: <Nine />,
+        link: 'slitherlink',
     },
     {
-        id: '8',
+        id: 8,
         category: 'Short Stories',
         title: 'Missing flight at Mumbai international airport',
         src: '/missingFlight.jpg',
-        show: <Eight />
+        show: <Eight />,
+        link: 'missingflight',
     },
     {
-        id: '7',
+        id: 7,
         category: 'Short Stories',
         title: 'My 1st flight journey',
         src: '/firstFlight.jpg',
-        show: <Seven />
+        show: <Seven />,
+        link: 'flightjourney',
     },
     {
-        id: '6',
+        id: 6,
         category: 'Short Stories',
         title: 'Who am I?',
         src: '/whoamI.jpg',
-        show: <Six />
+        show: <Six />,
+        link: 'whoami',
     },
     {
-        id: '5',
+        id: 5,
         category: 'Short Stories',
         title: '3 mentors of my life',
         src: '/mentors.jpg',
-        show: <Five />
+        show: <Five />,
+        link: 'mymentors',
     },
     {
-        id: '4',
+        id: 4,
         category: 'Short Stories',
         title: 'Let me breathe; please set me free',
         src: '/setMeFree.jpg',
-        show: <Four />
+        show: <Four />,
+        link: 'setmefree',
     },
     {
-        id: '3',
+        id: 3,
         category: 'Short Stories',
         title: 'Independent India : A crossword puzzle',
         src: '/indepindia.jpg',
-        show: <Three />
+        show: <Three />,
+        link: 'independentIndiaCrosswordPuzzle',
     },
     {
-        id: '2',
+        id: 2,
         category: 'Short Stories',
         title: 'Lockdown Thoughts : Privilege of what I want over what I need',
         src: '/lockdown.jpg',
-        show: <Two />
+        show: <Two />,
+        link: 'lockdownthoughts',
     },
     {
-        id: '1',
+        id: 1,
         category: 'Short Stories',
         title: 'क्या हम वाकई स्वतंत्र हैं',
         src: '/indepindia1.jpg',
-        show: <One />
+        show: <One />,
+        link: 'independentIndia',
     },
     {
-        id: '0',
+        id: 0,
         category: 'Short Stories',
         title: 'A Thought',
         src: '/thought.jpg',
-        show: <Zero />
+        show: <Zero />,
+        link: 'thought',
     },
 ];
 

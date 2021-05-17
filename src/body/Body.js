@@ -25,7 +25,8 @@ const useStyles = makeStyles((theme) => ({
 
 const getCategory = () => {
     const url = window.location.href;
-    return categories.filter(category => url.includes(category.link)).map(category => category.categoryName)[0];
+    const category = categories.filter(category => url.includes(category.link))[0];
+    return category!= null ? category : categories[1];
 }
 
 function Body() {
@@ -40,8 +41,8 @@ function Body() {
 
             <Grid container spacing={1} justify="center" alignItems="center" style={{minHeight:"50px"}}>
                     {categories.map((category) => (
-                        <Link to={category.link}>
-                            <Button onClick={() => setCategory(category.categoryName)} color="secondary" >  {category.categoryName} </Button>
+                        <Link to={'/'+category.link} replace>
+                            <Button onClick={() => setCategory(category)} color="secondary" >  {category.categoryName} </Button>
                         </Link>
                     ))}
             </Grid>
