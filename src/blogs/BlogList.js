@@ -56,7 +56,6 @@ class BlogList extends Component{
                             <Grid item>
                                 <Link smooth to={'/'+this.props.category.link + '/' +blog.link} replace>
                                 <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
-                                    npm install smoothscroll-polyfill --save
                                     Read more
                                 </Button>
                                 </Link>
