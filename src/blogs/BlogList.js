@@ -52,7 +52,6 @@ class BlogList extends Component{
                             </Grid>
                             <Grid item>
                                 <a href={'/#/'+this.props.category.link+'/' +blog.link} style={{textDecoration:'none'}}>
-                                    <meta property="og:image" content={'blogImages'+ blog.src} />
                                 <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
                                     Read more
                                 </Button>

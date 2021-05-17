@@ -39,7 +39,7 @@ function Body() {
 
             <Latest  category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
 
-            <Grid container spacing={1} justify="center" alignItems="center" style={{minHeight:"50px"}}>
+            <Grid container spacing={1} justify="center" alignItems="center" style={{minHeight:"50px"}} id="top">
                     {categories.map((category) => (
                         <Link to={'/'+category.link} replace style={{textDecoration:'none'}}>
                             <Button onClick={() => setCategory(category)} color="secondary" >  {category.categoryName} </Button>
@@ -49,6 +49,9 @@ function Body() {
 
             <BlogList category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
 
+            <a href={'/#top'} style={{textDecoration:'none'}}>
+                <Button color="primary" variant="contained"> Back to Top</Button>
+            </a>
         </div>
     );
 }
