@@ -9,7 +9,7 @@ const RandomThoughts = () => {
         setPage(value);
     };
     const noOfThoughtsPerPage = 5;
-    const noOfPages= Math.floor(listOfThoughts.length/noOfThoughtsPerPage) + 1;
+    const noOfPages= Math.ceil(listOfThoughts.length/noOfThoughtsPerPage);
     const lengthOfThoughts = listOfThoughts.length;
 
     return (

@@ -32,6 +32,7 @@ function Body() {
         <div className={classes.mainClass}>
 
             <Latest  category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
+
             <Grid container spacing={1} justify="center" alignItems="center" style={{minHeight:"50px"}}>
                     {categories.map((category) => (
                             <Button onClick={() => setCategory(category.categoryName)} color="secondary" >  {category.categoryName} </Button>

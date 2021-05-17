@@ -2,6 +2,40 @@ import {Twemoji} from 'react-emoji-render';
 
 const listOfThoughts = [
     {
+        id: 12,
+        show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            Random Thought 12 : <br/> Age, Height, Looks.. Everything matters in LOVE.. Don't let stupid quotes fool you
+            <Twemoji svg text=":D" />
+        </p>
+    },
+    {
+        id: 11,
+        show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            Random Thought 11 : <br/> black tshirt or blue jeans pehnne walo : tum kya jano colors 000000 se ffffff tak hote hain<br/>
+            P.S : I love black <Twemoji svg text=":P" />
+        </p>
+    },
+    {
+        id: 10,
+        show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            Random Thought 10 : <br/> Find a purpose to serve, not a lifestyle to live.<br/>
+        </p>
+    },
+    {
+        id: 9,
+        show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            Random Thought 9 : <br/> wo choti choti udanon pe gurur nahi karta jo parinda apne lie aasman dhundhta hai<br/>
+        </p>
+    },
+    {
+        id: 8,
+        show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            Random Thought 8 : <br/> *Me as a teacher*<br/>
+            Student : homework mai kya karna hai? <br/>
+            Me: 5 ache memes likh ke leke aana..
+        </p>
+    },
+    {
         id: 7,
         show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
             Random Thought 7 : <br/> Kahani kitni hi choti kyu na ho.<br/>
