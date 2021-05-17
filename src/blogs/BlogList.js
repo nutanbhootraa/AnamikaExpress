@@ -54,7 +54,7 @@ class BlogList extends Component{
                                 <h3>{blog.title}</h3>
                             </Grid>
                             <Grid item>
-                                <Link smooth to={'/'+this.props.category.link + '/' +blog.link} replace>
+                                <Link smooth to={'/'+this.props.category.link + '/' +blog.link} replace style={{textDecoration:'none'}}>
                                 <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
                                     Read more
                                 </Button>
@@ -79,7 +79,7 @@ class BlogList extends Component{
                         <h3>{blog.title}</h3>
                     </Grid>
                     <Grid item>
-                        <Link smooth to={'/'+this.props.category.link + '/' +blog.link} replace>
+                        <Link smooth to={'/'+this.props.category.link + '/' +blog.link} replace style={{textDecoration:'none'}}>
                         <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
                                 Read more
                         </Button>

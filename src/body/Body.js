@@ -41,7 +41,7 @@ function Body() {
 
             <Grid container spacing={1} justify="center" alignItems="center" style={{minHeight:"50px"}}>
                     {categories.map((category) => (
-                        <Link to={'/'+category.link} replace>
+                        <Link to={'/'+category.link} replace style={{textDecoration:'none'}}>
                             <Button onClick={() => setCategory(category)} color="secondary" >  {category.categoryName} </Button>
                         </Link>
                     ))}
