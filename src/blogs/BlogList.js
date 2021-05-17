@@ -4,6 +4,7 @@ import ShowBlog from "./ShowBlog";
 import Button from '@material-ui/core/Button';
 import RandomThoughts from './RandomThoughts';
 import { HashLink as Link} from 'react-router-hash-link';
+import smoothscroll from 'smoothscroll-polyfill';
 
 class BlogList extends Component{
 
@@ -13,6 +14,7 @@ class BlogList extends Component{
             isToggleOn : [],
         };
         this.handleClick = this.handleClick.bind(this);
+        smoothscroll.polyfill();
     }
 
     handleClick= (id, length) => {
