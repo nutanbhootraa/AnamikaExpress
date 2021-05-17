@@ -21,7 +21,7 @@ class BlogList extends Component{
                 isToggle1.push(!this.state.isToggleOn[i]);
             }
             else {
-                isToggle1.push(this.state.isToggleOn[i]);
+                isToggle1.push(false);
             }
         }
         this.setState({isToggleOn : isToggle1});
