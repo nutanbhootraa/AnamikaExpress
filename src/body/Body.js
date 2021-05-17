@@ -7,6 +7,7 @@ import BlogList from '../blogs/BlogList';
 import categories from '../categories/Categories';
 import blogs from '../blogs/BlogMetaData';
 import Latest from './Latest';
+import { HashLink as Link} from 'react-router-hash-link';
 
 const useStyles = makeStyles((theme) => ({
     mainClass: {
@@ -39,7 +40,9 @@ function Body() {
 
             <Grid container spacing={1} justify="center" alignItems="center" style={{minHeight:"50px"}}>
                     {categories.map((category) => (
+                        <Link to={category.link}>
                             <Button onClick={() => setCategory(category.categoryName)} color="secondary" >  {category.categoryName} </Button>
+                        </Link>
                     ))}
             </Grid>
 
