@@ -25,7 +25,7 @@ const Ten = () => {
 
                     It made me think again.<br/>
                     When people are out of jobs, food, home, and many people dying out there because of a lack of basic resources such as oxygen, ventilators, and medicines.
-                    I have every necessary commodity to live along with family. I can connect with anyone anytime.<br/><br/>
+                    I have every necessary commodity to live along with my family. I can connect with anyone anytime.<br/><br/>
 
                     So do I need to rant about my survival? Absolutely No.<br/><br/>
 

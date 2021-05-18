@@ -12,21 +12,31 @@ const Five = () => {
                     Hello everybody,<br/>
                     Today I will introduce my 3 mentors and how they changed my life.<br/><br/>
 
-                    there is no need for an introduction to my 1st mentor which is my mom, as everyone else’s.<br/>
-                    I was merely 1 year and 6-7 months when my homeschooling started. I started learning numbers 1-9. week1: My mom wrote 1-9 on a slate and I had to overwrite them. Week 2: she has written it on the slate and I had to copy that below. I used to write 1 some circles 3,4,5,6,7,8,9.
-                    Week 3: same<br/>
-                    by the end of week 4, my mom lost her cool. One evening She was teaching me and I did the same mistake. 1 some circles 3,4,5,6,7,8.9. and what happened next stunned the entire family. I had the first and last slap of my life. and and from the next day, I wrote 1-9 perfectly and there was no looking back from then.<br/>
-                    That day My mom and I have learned an important lesson each: I have to be a fast learner in this fast-paced world and she has to be patient with me.<br/><br/>
+                    there is no need for an introduction to my 1st mentor which is my mom, like everyone else’s.<br/>
+                    I was merely 1 year and 6-7 months when my homeschooling started. I started learning numbers 1-9.
+                    week1: My mom wrote 1-9 on a slate and I had to overwrite them.
+                    Week 2: she has written it on the slate and I had to copy that below. I used to write 1 some circles 3,4,5,6,7,8,9.
+                    Week 3: same.<br/>
+                    By the end of week 4, my mom lost her cool. One evening she was teaching me and I did the same mistake.
+                    1 some circles 3,4,5,6,7,8.9. and what happened next stunned the entire family.
+                    I had the first and last slap of my life.
+                    From the next day, I wrote 1-9 perfectly and there was no looking back from then.<br/>
+                    That day my mom and I have learned an important lesson each: I have to be a fast learner in this fast-paced world and she has to be patient with me.<br/><br/>
 
                     Fast forward to a few years.<br/>
                     I was in 4th standard.<br/>
-                    I just moved from Andhra Pradesh to Rajasthan with my maternal grandparents and it was a small village. Forget about English medium schools, that village had only 2 schools. One govt and 1 private.
+                    I just moved from Andhra Pradesh to Rajasthan with my maternal grandparents and it was a small village.
+                    Forget about English medium schools, that village had only 2 schools. One government and 1 private.
                     I got admission into a private school.<br/>
                     Day 1: My cousin and I got ready to go to school. We were already late that day for the prayer.
-                    As I entered the school, I got my 1st shock. Students were sitting under the tree. We went there and were waiting for our teacher. As the teacher entered I got my 2nd shock. We stood up and I started good morrr and stopped because I heard “Acharya Devo bhava” from the other side which means “teacher is equivalent to god”. I did not dare to say thank you teacher after that.<br/>
-                    It was Sanskrit class and I did not have Sanskrit till now, so technically this was my 1st Sanskrit class. I did not understand a word of what she was teaching.<br/>
-                    Anyhow the next class started and it was Mathematics. I thought yes, this is my subject. Here comes my 3rd shock. the teacher came and he started teaching “Laghutam samapvartya”. I did not have any clue what that meant.<br/>
-                    School ended and I went home. I told my grandpa, I will never go to this school again. He asked my cousin about what happened and all. after dinner, he called me and said: don’t worry I will teach you what you are not able to understand there. He himself was an English and maths teacher in his time but in English medium. So he too did not understand much of Hindi. He got all my books and Hindi to English dictionary. He worked day and night to teach me all the words and the entire maths.<br/>
+                    As I entered the school, I got my 1st shock. Students were sitting under the tree.
+                    We went there and were waiting for our teacher. As the teacher entered, I got my 2nd shock.
+                    We stood up, and I started good morrr and stopped because I heard “Acharya Devo bhava” from the other side which means “teacher is equivalent to god”. I did not dare to say thank you teacher after that.<br/>
+                    It was Sanskrit class, and I did not have Sanskrit till now, so technically this was my 1st Sanskrit class. I did not understand a word of what she was teaching.<br/>
+                    Anyhow the next class started, and it was mathematics. I thought, yes, this is my subject.
+                    Here comes my 3rd shock. the teacher came, and he started teaching “Laghutam samapvartya”.
+                    I did not have any clue what that meant.<br/>
+                    School ended. I went home. I told my grandpa, I will never go to this school again. He asked my cousin about what happened and all. after dinner, he called me and said: don’t worry I will teach you what you are not able to understand there. He himself was an English and maths teacher in his time but in English medium. So he too did not understand much of Hindi. He got all my books and Hindi to English dictionary. He worked day and night to teach me all the words and the entire maths.<br/>
                     Oh btw “laghutam samapvartya” means LCM “Lowest Common Multiple”.<br/><br/>
 
                     He taught me 2 important lessons. 1) If you want to teach someone something then first learn 100% of that by yourself. 2) You can’t quit just because some hurdle came along your way.<br/><br/>

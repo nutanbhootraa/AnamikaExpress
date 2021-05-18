@@ -18,18 +18,18 @@ const Eleven = () => {
                     They called different gods and got 5 more children for both of his wives. They were in the jungle at that time and her husband died.<br/><br/>
 
                     After some time, when they went to the palace, she saw a person with kavach and kundal, named Karna.
-                    She immediately knew he was her abandoned son. That day cried out of her motherhood. She wanted to hug him, bless him. However, could not because she thought what society will say.<br/><br/>
+                    She immediately knew he was her abandoned son. That day cried out of her motherhood. She wanted to hug him, bless him. However, could not because she thought about what society will say.<br/><br/>
 
                     After some time, when the Mahabharata battle started then Karna was with the army, which was against Kunti’s 5 sons. She did not want her sons to have a battle against each other.
-                    So she told lord Krishna, that he should talk to Karna. Krishna told Karna, that Kunti is your mother and all the Pandavas are your brothers.
-                    However, he was bound with the friendship of Duryodhana. So he refused to join Pandava’s side.
+                    So she told lord Krishna that he should talk to Karna. Krishna told Karna, that Kunti is your mother and all the Pandavas are your brothers.
+                    However, he was bound by the friendship of Duryodhana. So he refused to join Pandava’s side.
                     When Kunti talked to him he was on the roller coaster of emotions, but he said, I will only fight Arjuna, not any other brother.
                     O’ mother, you will have your 5 sons after this battle with Either Arjuna or me alive.<br/><br/>
 
-                    On the battlefield, when Karna died, Kunti cried a lot. When everyone got to know, that Karna was Kunti’s eldest son, Yudhisthira, who was now the eldest son, could not bear it.
+                    On the battlefield, when Karna died, Kunti cried a lot. When everyone got to know that Karna was Kunti’s eldest son, Yudhisthira, who was now the eldest son, could not bear it.
                     He cursed Kunti that from now onward no woman can keep a secret. Because of your secret, we lost our brother.<br/><br/>
 
-                    And kids, that is why we, women can’t keep secrets.
+                    And kids, that is why we, women, can’t keep secrets.
                 </p>
             </Grid>
         </div>
