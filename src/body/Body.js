@@ -6,7 +6,6 @@ import Grid from '@material-ui/core/Grid';
 import BlogList from '../blogs/BlogList';
 import categories from '../categories/Categories';
 import blogs from '../blogs/BlogMetaData';
-import Latest from './Latest';
 import { HashLink as Link} from 'react-router-hash-link';
 
 const useStyles = makeStyles((theme) => ({
@@ -36,8 +35,6 @@ function Body() {
 
     return (
         <div className={classes.mainClass}>
-
-            <Latest  category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
 
             <Grid container spacing={1} justify="center" alignItems="center" style={{minHeight:"50px"}} id="top">
                     {categories.map((category) => (

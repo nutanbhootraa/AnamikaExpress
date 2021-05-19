@@ -2,15 +2,16 @@ import React, {Component} from 'react';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import ShowBlog from '../blogs/ShowBlog';
+import categories from '../categories/Categories';
 
 class Latest extends Component{
 
     constructor(props) {
         super(props);
         this.state = {
-            isToggleOn : []
-        };
+            isToggleOn : [],
+            currentCategory : categories.filter(category => category.categoryName === this.props.listOfBlogs[0].category)[0],
+    };
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -27,8 +28,8 @@ class Latest extends Component{
         this.setState({isToggleOn : isToggle1});
     };
 
-
     render() {
+        console.log(this.state.currentCategory);
         const lengthOfArray = this.props.listOfBlogs.length;
         for (let i = 0; i <= lengthOfArray; i++) {
             this.state.isToggleOn.push(false);
@@ -39,21 +40,15 @@ class Latest extends Component{
                                 <Typography variant="h4" color="secondary">
                                     <b> Latest Post </b>
                                 </Typography>
-                                <h3>{this.props.listOfBlogs[0].category}</h3>
                                 <h3>{this.props.listOfBlogs[0].title}</h3>
                             </Grid>
                             <Grid item>
-                                <Button onClick={this.handleClick.bind(this, this.props.listOfBlogs[0].id, lengthOfArray)} color="primary" variant="contained">
+                                <a href={'/#/'+this.state.currentCategory.link+'/' +this.props.listOfBlogs[0].link} style={{textDecoration:'none'}}>
+                                <Button color="primary" variant="contained">
                                     Read more
                                 </Button>
+                                </a>
                             </Grid>
-                            {this.state.isToggleOn[this.props.listOfBlogs[0].id] ?
-                                <div>
-                                    <Grid item xl={6} md={6} sm={12} xs={12}>
-                                        <ShowBlog blog={this.props.listOfBlogs[0]}/>
-                                    </Grid>
-                                </div>
-                                : null}
                         </Grid>
         );
     }
