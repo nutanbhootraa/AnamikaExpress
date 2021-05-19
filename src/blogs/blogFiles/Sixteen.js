@@ -49,6 +49,8 @@ const Fifteen = () => {
                     That day I realized this is what I want to be. I won’t hurt people, will be updated on their progress, and not make them dependent on me.<br/><br/>
 
                     Now as I am the mentor for many people I guide them, show them the path, and together try to break their problems. I don’t want to be a boss or helper, I want to be a leader.<br/><br/>
+
+                    #leadershipIsAnArt #beALeader #bossHelperOrLeader
                 </p>
             </Grid>
         </div>
