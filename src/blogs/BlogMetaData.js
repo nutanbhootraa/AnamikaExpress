@@ -24,6 +24,7 @@ const listOfBlogs = [
         src: '/bossleader.jpeg',
         show: <Sixteen />,
         link: 'bosshelperorleader',
+        date: 'May 19, 2021',
     },
     {
         id: 15,
@@ -32,6 +33,7 @@ const listOfBlogs = [
         src: '/cleancode.jpg',
         show: <Fifteen />,
         link: 'meaningfulnames',
+        date: 'May 15, 2021',
     },
     {
         id: 14,
@@ -40,6 +42,7 @@ const listOfBlogs = [
         src: '/cleancode.jpg',
         show: <Fourteen />,
         link: 'whycleancode',
+        date: 'May 14, 2021',
     },
     {
         id: 13,
@@ -48,6 +51,7 @@ const listOfBlogs = [
         src: '/puzzle1.jpg',
         show: <Thirteen />,
         link: 'bridgebuilder',
+        date: 'May 13, 2021',
     },
     {
         id: 12,
@@ -56,6 +60,7 @@ const listOfBlogs = [
         src: '/kkhh.jpg',
         show: <Twelve />,
         link: 'kkhh20trailer',
+        date: 'May 10, 2021',
     },
     {
         id: 11,
@@ -64,6 +69,7 @@ const listOfBlogs = [
         src: '/womenSecrets.jpg',
         show: <Eleven />,
         link: 'womencantkeepsecrets',
+        date: 'May 7, 2021',
     },
     {
         id: 10,
@@ -72,6 +78,7 @@ const listOfBlogs = [
         src: '/depression.jpeg',
         show: <Ten />,
         link: 'mentalhealth',
+        date: 'May 7, 2021',
     },
     {
         id: 9,
@@ -80,6 +87,7 @@ const listOfBlogs = [
         src: '/puzzle1.jpg',
         show: <Nine />,
         link: 'slitherlink',
+        date: 'May 5, 2021',
     },
     {
         id: 8,
@@ -88,6 +96,7 @@ const listOfBlogs = [
         src: '/missingFlight.jpg',
         show: <Eight />,
         link: 'missingflight',
+        date: 'May 2, 2021',
     },
     {
         id: 7,
@@ -96,6 +105,7 @@ const listOfBlogs = [
         src: '/firstFlight.jpg',
         show: <Seven />,
         link: 'flightjourney',
+        date: 'May 1, 2021',
     },
     {
         id: 6,
@@ -104,6 +114,7 @@ const listOfBlogs = [
         src: '/whoami.jpg',
         show: <Six />,
         link: 'whoami',
+        date: 'Apr 30, 2021',
     },
     {
         id: 5,
@@ -112,6 +123,7 @@ const listOfBlogs = [
         src: '/mentors.jpg',
         show: <Five />,
         link: 'mymentors',
+        date: 'Dec 12, 2020',
     },
     {
         id: 4,
@@ -120,6 +132,7 @@ const listOfBlogs = [
         src: '/setMeFree.jpg',
         show: <Four />,
         link: 'setmefree',
+        date: 'Aug 28, 2020',
     },
     {
         id: 3,
@@ -128,6 +141,7 @@ const listOfBlogs = [
         src: '/indepindia.jpg',
         show: <Three />,
         link: 'independentIndiaCrosswordPuzzle',
+        date: 'Aug 15, 2020',
     },
     {
         id: 2,
@@ -136,6 +150,7 @@ const listOfBlogs = [
         src: '/lockdown.jpg',
         show: <Two />,
         link: 'lockdownthoughts',
+        date: 'Jun 10, 2020',
     },
     {
         id: 1,
@@ -144,6 +159,7 @@ const listOfBlogs = [
         src: '/indepindia1.jpg',
         show: <One />,
         link: 'independentIndia',
+        date: 'Aug 12, 2018',
     },
     {
         id: 0,
@@ -152,6 +168,7 @@ const listOfBlogs = [
         src: '/thought.jpg',
         show: <Zero />,
         link: 'thought',
+        date: 'Jan 6, 2017',
     },
 ];
 
