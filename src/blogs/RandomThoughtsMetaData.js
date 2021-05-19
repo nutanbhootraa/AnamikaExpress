@@ -2,6 +2,20 @@ import {Twemoji} from 'react-emoji-render';
 
 const listOfThoughts = [
     {
+        id: 14,
+        show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            Random Thought 14 : <br/> लक्ष्मण, तुम हो तपसपृही, <br/>
+            मैं वन में भी रहा गृही।  -- रामायण <br/>
+            <Twemoji svg text=":( :(" />
+        </p>
+    },
+    {
+        id: 13,
+        show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            Random Thought 13 : <br/> Baith ke sochiye janab, Beti to aapki bhi ho sakti thi
+        </p>
+    },
+    {
         id: 12,
         show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
             Random Thought 12 : <br/> Age, Height, Looks.. Everything matters in LOVE.. Don't let stupid quotes fool you

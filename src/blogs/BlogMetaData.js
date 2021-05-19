@@ -14,8 +14,17 @@ import Twelve from './blogFiles/Twelve';
 import Thirteen from './blogFiles/Thirteen';
 import Fourteen from './blogFiles/Fourteen';
 import Fifteen from './blogFiles/Fifteen';
+import Sixteen from './blogFiles/Sixteen';
 
 const listOfBlogs = [
+    {
+        id: 16,
+        category:'Short Stories',
+        title:'Boss, Helper or Leader',
+        src: '/bossleader.jpeg',
+        show: <Sixteen />,
+        link: 'bosshelperorleader',
+    },
     {
         id: 15,
         category:'Tech Blog',
@@ -92,7 +101,7 @@ const listOfBlogs = [
         id: 6,
         category: 'Short Stories',
         title: 'Who am I?',
-        src: '/whoamI.jpg',
+        src: '/whoami.jpg',
         show: <Six />,
         link: 'whoami',
     },
