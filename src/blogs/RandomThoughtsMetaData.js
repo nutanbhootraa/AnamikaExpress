@@ -2,6 +2,15 @@ import {Twemoji} from 'react-emoji-render';
 
 const listOfThoughts = [
     {
+        id: 15,
+        show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            Random Thought 15 : <br/> I feel a generation gap with my own age people.. <br/>
+            Some are married, some are raising kids, some are still figuring it out : which one is better gold flake king or Marlboro <Twemoji svg text="<3 <3"/> <br/>
+            Here I am, still can't decide whether to take bath today
+            <Twemoji svg text="🤭🤭" />
+        </p>
+    },
+    {
         id: 14,
         show: <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
             Random Thought 14 : <br/> लक्ष्मण, तुम हो तपसपृही, <br/>
