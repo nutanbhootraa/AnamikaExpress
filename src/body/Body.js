@@ -7,6 +7,7 @@ import ShowBlogList from '../blogs/ShowBlogList';
 import categories from '../categories/Categories';
 import blogs from '../blogs/BlogMetaData';
 import { HashLink as Link} from 'react-router-hash-link';
+import Counter from '../Counter';
 
 const useStyles = makeStyles((theme) => ({
     mainClass: {
@@ -49,6 +50,9 @@ function Body() {
             <a href={'/#top'} style={{textDecoration:'none'}}>
                 <Button color="primary" variant="contained"> Back to Top</Button>
             </a>
+
+            <Counter/>
+
         </div>
     );
 }
