@@ -15,8 +15,18 @@ import Thirteen from './blogFiles/Thirteen';
 import Fourteen from './blogFiles/Fourteen';
 import Fifteen from './blogFiles/Fifteen';
 import Sixteen from './blogFiles/Sixteen';
+import Seventeen from './blogFiles/Seventeen';
 
 const listOfBlogs = [
+    {
+        id: 17,
+        category:'Tech Blog',
+        title:'Clean Code : Functions',
+        src: '/cleancode.jpg',
+        show: <Seventeen />,
+        link: 'functions',
+        date: 'May 22, 2021',
+    },
     {
         id: 16,
         category:'Short Stories',

@@ -7,7 +7,7 @@ const Fifteen = () => {
         <div>
             <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
                 <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
-                    <b><i>Meaningful Names</i></b>
+                    <b  style={{color:"blue"}}><i>Meaningful Names</i></b>
                     <ol>
                         <li>Use Intention-Revealing Names
                             <ul>
@@ -121,6 +121,11 @@ const Fifteen = () => {
                 <a href="/attachments/meaningfulNames_GoodCode.txt" download="Good Code">
                     Good Code
                 </a>
+            </Grid>
+            <Grid align="center" style={{backgroundColor:"#eeeeee"}} width="75%">
+                <p style={{fontFamily:"Alegreya, serif", color:"blue", lineHeight:'1.8'}}>
+                    ENJOY CODING!!!
+                </p>
             </Grid>
         </div>
     );

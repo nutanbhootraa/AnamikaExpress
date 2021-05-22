@@ -6,7 +6,7 @@ const Fourteen = () => {
         <div>
             <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
                 <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
-                    <b><i>Why Clean Code?</i></b>
+                    <b style={{color:"blue"}}><i>Why Clean Code?</i></b>
                     <ul>
                         <li>You are a programmer </li>
                         <li> You want to be a better programmer </li>
@@ -24,8 +24,11 @@ const Fourteen = () => {
                             will look at a messy module and see options and variations.</li>
                         <li>The Boy Scout Rule : Leave the campground cleaner than you found it</li>
                     </ul>
-
-
+                </p>
+            </Grid>
+            <Grid align="center" style={{backgroundColor:"#eeeeee"}} width="75%">
+                <p style={{fontFamily:"Alegreya, serif", color:"blue", lineHeight:'1.8'}}>
+                    ENJOY CODING!!!
                 </p>
             </Grid>
         </div>
