@@ -75,16 +75,18 @@ class BlogList extends Component{
                     <Grid item>
                         <h3>{blog.title}</h3>
                     </Grid>
-                    <Grid item>
-                        <a href={'/#/'+this.props.category.link+'/' +blog.link} style={{textDecoration:'none'}}>
-                        <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
-                                Read more
-                        </Button>
-                        </a>
-                    </Grid>
                     <Grid container>
                         {this.state.isToggleOn[blog.id] ? <ShowBlog blog={blog}/> : null}
                     </Grid>
+                    <Grid item>
+                        <a href={'/#/'+this.props.category.link+'/' +blog.link} style={{textDecoration:'none'}}>
+                        <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
+
+                            {this.state.isToggleOn[blog.id] ? 'Read less' : 'Read more'}
+                        </Button>
+                        </a>
+                    </Grid>
+
                 </Grid>
             ))}
 
