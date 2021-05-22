@@ -4,13 +4,6 @@ import ShowBlog from "./ShowBlog";
 import Button from '@material-ui/core/Button';
 import RandomThoughts from './RandomThoughts';
 
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import IconButton from '@material-ui/core/IconButton';
-import { Router} from "react-router-dom";
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-
 class BlogList extends Component{
 
     constructor(props) {
