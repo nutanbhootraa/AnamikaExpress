@@ -31,7 +31,7 @@ void uploadNumberToEarth2(int number) {
 `}</pre> </i>
  What is wrong with the above code? <br/>
                         a) Code is repeating.<br/>
-                        b) It is 1 big function with multiple functionalities : In below code, all the functiona are very small and doing only one functionality.
+                        b) It is 1 big function with multiple functionalities : In below code, all the functions are very small and doing only one functionality.
 <i><pre>{`void testAbcFunctionality(int number) {
     verifyNumber(number);
     if (isOdd(number)) {
