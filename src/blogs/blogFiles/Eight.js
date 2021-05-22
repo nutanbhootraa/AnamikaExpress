@@ -4,8 +4,8 @@ import Grid from '@material-ui/core/Grid';
 const Eight = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     My summer vacation was over, and I had to go back to college. I booked my flight ticket. Woke up early that day, got ready, reached the airport before 4 hours of actual departure, checked in my luggage, crossed the security check. All sorted. My gate number was 45.<br/><br/>
 
                     I had enough time, so I thought "let’s do the shopping". I started with a clothing store, perfume store, then book store.<br/><br/>

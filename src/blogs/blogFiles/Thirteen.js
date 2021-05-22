@@ -5,8 +5,8 @@ import {Twemoji} from 'react-emoji-render';
 const Nine = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     The Challenge : Link islands (Circles) with bridges (Straight lines), so that number on each island describes the number of bridges coming from that island.
                     <br/><br/>
 

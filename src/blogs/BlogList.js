@@ -4,6 +4,13 @@ import ShowBlog from "./ShowBlog";
 import Button from '@material-ui/core/Button';
 import RandomThoughts from './RandomThoughts';
 
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
+import GridListTileBar from '@material-ui/core/GridListTileBar';
+import IconButton from '@material-ui/core/IconButton';
+import { Router} from "react-router-dom";
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+
 class BlogList extends Component{
 
     constructor(props) {
@@ -40,33 +47,9 @@ class BlogList extends Component{
                 }
         }
         return (
-        this.props.category.categoryName === 'All' ?
-            <div className={this.props.classes.mainClass}>
-                    {this.props.listOfBlogs.map((blog) => (
-                        <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} direction={'column'} align="center" id={'/'+this.props.category.link+'/' +blog.link}>
-                            <Grid style={{backgroundColor:"#eeeeee"}}>
-                                <img key={blog.id} src={'blogImages'+ blog.src} title={blog.title} alt={blog.title} width="200" height="200"/>
-                            </Grid>
-                            <Grid item>
-                                <h3>{blog.title}</h3>
-                            </Grid>
-                            <Grid item>
-                                <a href={'/#/'+this.props.category.link+'/' +blog.link} style={{textDecoration:'none'}}>
-                                <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
-                                    Read more
-                                </Button>
-                                </a>
-                            </Grid>
-                            <Grid container>
-                                {this.state.isToggleOn[blog.id] ? <ShowBlog blog={blog}/> : null}
-                            </Grid>
-                        </Grid>
-                    ))}
-            </div>
+        this.props.category.categoryName === 'Random Thoughts' ? <RandomThoughts/> :
 
-            : this.props.category.categoryName === 'Random Thoughts' ? <RandomThoughts/> :
-
-            <div className={this.props.classes.mainClass}>
+            <div className={this.props.classes.root}>
             {this.props.listOfBlogs.filter(blog => (blog.category === this.props.category.categoryName) ).map((blog) => (
                 <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} direction={'column'} align="center" id={'/'+this.props.category.link+'/' +blog.link}>
                     <Grid style={{backgroundColor:"#eeeeee"}}>
@@ -88,6 +71,7 @@ class BlogList extends Component{
                     </Grid>
 
                 </Grid>
+
             ))}
 
             </div>

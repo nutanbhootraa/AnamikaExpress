@@ -4,8 +4,8 @@ import Grid from '@material-ui/core/Grid';
 const Fourteen = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     <b style={{color:"blue"}}><i>Why Clean Code?</i></b>
                     <ul>
                         <li>You are a programmer </li>

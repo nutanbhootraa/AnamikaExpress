@@ -5,8 +5,8 @@ import {Twemoji} from 'react-emoji-render';
 const Twelve = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     Kuch Kuch Hota hai is one of the iconic movies in Indian cinema. It portraits the chemistry between three people, Selfish Rahul, Dumb Anjali, and Hot Tina.<br/><br/>
 
                     Summary:<br/>

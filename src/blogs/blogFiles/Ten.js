@@ -4,8 +4,8 @@ import Grid from '@material-ui/core/Grid';
 const Ten = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     Until a few years ago, when anyone used to be sad, and we called it sadness. Recently, we are more educated about mental health.<br/><br/>
 
                     After the sudden demise of late actor Sushant Singh Rajput, everyone suddenly started talking about mental health.

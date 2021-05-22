@@ -1,12 +1,10 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import CheckIcon from '@material-ui/icons/Check';
-import ClearIcon from '@material-ui/icons/Clear';
 const Seventeen = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     <b style={{color:"blue"}}><i>Functions</i></b>
                     <ol>
                         <li>Function should be small.</li>

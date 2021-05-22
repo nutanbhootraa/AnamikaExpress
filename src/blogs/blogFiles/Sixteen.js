@@ -4,8 +4,8 @@ import Grid from '@material-ui/core/Grid';
 const Fifteen = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     Effective leaders are not only excellent communicators but also display a high level of personal integrity. They are open-minded, optimistic, and lead by example.<br/>
 
                     We are all like the 8 legged spiders that walk on 8 different leadership styles. However, unlike the spider, each one of us has a dominant leadership style.

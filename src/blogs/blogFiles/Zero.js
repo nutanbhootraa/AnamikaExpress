@@ -4,8 +4,8 @@ import Grid from '@material-ui/core/Grid';
 const Zero = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     “Your skirt provoked them”… seriously… a 3 year old kid was not wearing skirt right. Then why she got raped.
                     A 86 years old lady has not wore skirt, then why she is victim. Her husband raped her.
                     It’s not short skirt which provoked you, it’s narrow mind and poor upbringing of rapists as well as supporters of them. Bhaiya najaria badlo najara apne aap badal jaega.<br/><br/>

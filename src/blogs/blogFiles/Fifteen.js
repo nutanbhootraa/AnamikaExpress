@@ -5,8 +5,8 @@ import ClearIcon from '@material-ui/icons/Clear';
 const Fifteen = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     <b  style={{color:"blue"}}><i>Meaningful Names</i></b>
                     <ol>
                         <li>Use Intention-Revealing Names

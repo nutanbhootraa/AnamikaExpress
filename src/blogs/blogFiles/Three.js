@@ -4,8 +4,8 @@ import Grid from '@material-ui/core/Grid';
 const Three = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     Tum mujhe khoon do mai tumhe ajadi doonga<br/>
                     Sarfaroshi ki tamanna ab hamare dil mai hai<br/>
                     Simon go back<br/>

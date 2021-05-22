@@ -5,8 +5,8 @@ import {Twemoji} from 'react-emoji-render';
 const Seven = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     It was December 2015, for my winter vacation from college. I decided to go home by flight.
                     I was so excited as this was my 1st-time experience in flight.
                     As soon as I have booked the ticket, I started packing my luggage, packed 2 bags, 1 laptop bag, 1 carry bag, and whatnot, as you all know how much we, girls, like to carry with us.

@@ -1,3 +1,4 @@
+import './blogFiles/blogFiles.css'
 import Zero from './blogFiles/Zero';
 import One from './blogFiles/One';
 import Two from './blogFiles/Two';

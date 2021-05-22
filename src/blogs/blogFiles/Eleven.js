@@ -4,8 +4,8 @@ import Grid from '@material-ui/core/Grid';
 const Eleven = () => {
     return (
         <div>
-            <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
-                <p style={{fontFamily:"Alegreya, serif", color:"#6a6c60", lineHeight:'1.8'}}>
+            <Grid align="left" width="75%">
+                <p>
                     Once upon a time in Mahabharata, there was a princess named Kunti. She was exquisite and hardworking. Once she has served a saint named Durvasa.
                     He gave her a boon and told her if she recites this mantra and calls any god, then she will get a son.<br/><br/>
 
