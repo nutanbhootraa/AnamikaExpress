@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 const getCategory = () => {
     const url = window.location.href;
     const category = categories.filter(category => url.includes(category.link))[0];
-    return category!= null ? category : categories[1];
+    return category!= null ? category : categories[0];
 }
 
 function Body() {
