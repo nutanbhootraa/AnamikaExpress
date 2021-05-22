@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from "@material-ui/core/Button";
 import Grid from '@material-ui/core/Grid';
-import BlogList from '../blogs/BlogList';
+import ShowBlogList from '../blogs/ShowBlogList';
 import categories from '../categories/Categories';
 import blogs from '../blogs/BlogMetaData';
 import { HashLink as Link} from 'react-router-hash-link';
@@ -44,7 +44,7 @@ function Body() {
                     ))}
             </Grid>
 
-            <BlogList category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
+            <ShowBlogList category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
 
             <a href={'/#top'} style={{textDecoration:'none'}}>
                 <Button color="primary" variant="contained"> Back to Top</Button>

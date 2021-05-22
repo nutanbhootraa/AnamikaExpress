@@ -4,7 +4,7 @@ import ShowBlog from "./ShowBlog";
 import Button from '@material-ui/core/Button';
 import RandomThoughts from './RandomThoughts';
 
-class BlogList extends Component{
+class ShowBlogList extends Component{
 
     constructor(props) {
         super(props);
@@ -73,4 +73,4 @@ class BlogList extends Component{
     }
 }
 
-export default BlogList;
+export default ShowBlogList;
