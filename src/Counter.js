@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 function Counter() {
     return (
         window.location.href.includes('counterNutan') ?
-            <div align=center>
+            <div>
                 <a href='https://www.counter12.com'>
                     <img src='https://www.counter12.com/img-by27d33aD834842c-13.gif' border='0' alt='free web counter'/>
                 </a>
