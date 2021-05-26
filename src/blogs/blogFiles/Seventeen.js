@@ -11,7 +11,7 @@ const Seventeen = () => {
                         <li>Do not repeat yourself.</li>
                         <li>Function should do only one thing.</li>
                         <i>
-                            <div style={{maxWidth: '300px', overflowX: 'scroll'}}>
+                            <div style={{maxWidth: '200px', overflowX: 'scroll'}}>
 <pre>{`void testAbcFunctionality(int number) {
   if (number < 300 && number > 600) {
     throw new Exception("invalid number");
@@ -33,7 +33,7 @@ void uploadNumberToEarth2(int number) {
  What is wrong with the above code? <br/>
                         a) Code is repeating.<br/>
                         b) It is 1 big function with multiple functionalities : In below code, all the functions are very small and doing only one functionality.
-                        <div style={{maxWidth: '300px', overflowX: 'scroll'}}>
+                        <div style={{maxWidth: '200px', overflowX: 'scroll'}}>
 
                         <i><pre>{`void testAbcFunctionality(int number) {
     verifyNumber(number);
@@ -71,7 +71,7 @@ void uploadNumberToEarth2(int number) {
                         <li>When a function needs more than two or three arguments, wrap those arguments inside the class and pass the object.</li>
                         <li>Avoid writing functions in such a way that user has to remember order. For example, assertEquals(expected, actual) can be rewritten as assertExpectedEqualsActual(expected, actual).</li>
                         <li>Avoid side effects :
-                            <div style={{maxWidth: '300px', overflowX: 'scroll'}}>
+                            <div style={{maxWidth: '200px', overflowX: 'scroll'}}>
                             <i> <pre>{`void checkPassword(String userName, String password) {
   String codePhrase = getCodePhraseForUsernamePassword(userName, password);
   if("Valid Password".equals(codePhrase)) {
