@@ -52,7 +52,14 @@ class ShowBlogList extends Component{
                         <h3>{blog.title}</h3>
                     </Grid>
                     <Grid container>
-                        {this.state.isToggleOn[blog.id] ? <ShowBlog blog={blog}/> : null}
+                        {this.state.isToggleOn[blog.id] ?
+                            <div>
+                                <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
+                                     Read less
+                                </Button>
+                                <ShowBlog blog={blog}/>
+                            </div>
+                            : null}
                     </Grid>
                     <Grid item>
                         <a href={'/#/'+this.props.category.link+'/' +blog.link} style={{textDecoration:'none'}}>
