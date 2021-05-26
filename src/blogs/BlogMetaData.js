@@ -21,7 +21,7 @@ import Seventeen from './blogFiles/Seventeen';
 const listOfBlogs = [
     {
         id: 17,
-        category:'Tech Blog',
+        category:'2',
         title:'Clean Code : Functions',
         src: '/cleancode.jpg',
         show: <Seventeen />,
@@ -30,7 +30,7 @@ const listOfBlogs = [
     },
     {
         id: 16,
-        category:'Short Stories',
+        category:'0',
         title:'Boss, Helper or Leader',
         src: '/bossleader.jpeg',
         show: <Sixteen />,
@@ -39,7 +39,7 @@ const listOfBlogs = [
     },
     {
         id: 15,
-        category:'Tech Blog',
+        category:'2',
         title:'Clean Code : Meaningful Names',
         src: '/cleancode.jpg',
         show: <Fifteen />,
@@ -48,7 +48,7 @@ const listOfBlogs = [
     },
     {
         id: 14,
-        category:'Tech Blog',
+        category:'2',
         title:'Clean Code : Part 1',
         src: '/cleancode.jpg',
         show: <Fourteen />,
@@ -57,7 +57,7 @@ const listOfBlogs = [
     },
     {
         id: 13,
-        category:'Puzzles',
+        category:'1',
         title:'Puzzle 2 : Bridge Building',
         src: '/puzzle1.jpg',
         show: <Thirteen />,
@@ -66,7 +66,7 @@ const listOfBlogs = [
     },
     {
         id: 12,
-        category: 'Short Stories',
+        category: '0',
         title: 'Kuch kuch hota hai 20 : trailer',
         src: '/kkhh.jpg',
         show: <Twelve />,
@@ -75,7 +75,7 @@ const listOfBlogs = [
     },
     {
         id: 11,
-        category: 'Short Stories',
+        category: '0',
         title: 'Why women can\'t keep secrets',
         src: '/womenSecrets.jpg',
         show: <Eleven />,
@@ -84,7 +84,7 @@ const listOfBlogs = [
     },
     {
         id: 10,
-        category: 'Short Stories',
+        category: '0',
         title: 'Mental Health : A Luxury Today?',
         src: '/depression.jpeg',
         show: <Ten />,
@@ -93,7 +93,7 @@ const listOfBlogs = [
     },
     {
         id: 9,
-        category: 'Puzzles',
+        category: '1',
         title: 'Puzzle 1 : Slitherlink',
         src: '/puzzle1.jpg',
         show: <Nine />,
@@ -102,7 +102,7 @@ const listOfBlogs = [
     },
     {
         id: 8,
-        category: 'Short Stories',
+        category: '0',
         title: 'Missing flight at Mumbai international airport',
         src: '/missingFlight.jpg',
         show: <Eight />,
@@ -111,7 +111,7 @@ const listOfBlogs = [
     },
     {
         id: 7,
-        category: 'Short Stories',
+        category: '0',
         title: 'My 1st flight journey',
         src: '/firstFlight.jpg',
         show: <Seven />,
@@ -120,7 +120,7 @@ const listOfBlogs = [
     },
     {
         id: 6,
-        category: 'Short Stories',
+        category: '0',
         title: 'Who am I?',
         src: '/whoami.jpg',
         show: <Six />,
@@ -129,7 +129,7 @@ const listOfBlogs = [
     },
     {
         id: 5,
-        category: 'Short Stories',
+        category: '0',
         title: '3 mentors of my life',
         src: '/mentors.jpg',
         show: <Five />,
@@ -138,7 +138,7 @@ const listOfBlogs = [
     },
     {
         id: 4,
-        category: 'Short Stories',
+        category: '0',
         title: 'Let me breathe; please set me free',
         src: '/setMeFree.jpg',
         show: <Four />,
@@ -147,7 +147,7 @@ const listOfBlogs = [
     },
     {
         id: 3,
-        category: 'Short Stories',
+        category: '0',
         title: 'Independent India : A crossword puzzle',
         src: '/indepindia.jpg',
         show: <Three />,
@@ -156,7 +156,7 @@ const listOfBlogs = [
     },
     {
         id: 2,
-        category: 'Short Stories',
+        category: '0',
         title: 'Lockdown Thoughts : Privilege of what I want over what I need',
         src: '/lockdown.jpg',
         show: <Two />,
@@ -165,7 +165,7 @@ const listOfBlogs = [
     },
     {
         id: 1,
-        category: 'Short Stories',
+        category: '0',
         title: 'क्या हम वाकई स्वतंत्र हैं',
         src: '/indepindia1.jpg',
         show: <One />,
@@ -174,7 +174,7 @@ const listOfBlogs = [
     },
     {
         id: 0,
-        category: 'Short Stories',
+        category: '0',
         title: 'A Thought',
         src: '/thought.jpg',
         show: <Zero />,

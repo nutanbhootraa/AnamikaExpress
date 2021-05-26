@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import categories from '../categories/Categories';
+import categories from '../categories/CategoriesMetaData';
 
 class Latest extends Component{
 

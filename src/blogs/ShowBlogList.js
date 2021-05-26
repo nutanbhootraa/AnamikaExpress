@@ -43,7 +43,7 @@ class ShowBlogList extends Component{
         this.props.category.categoryName === 'Random Thoughts' ? <RandomThoughts/> :
 
             <div className={this.props.classes.root}>
-            {this.props.listOfBlogs.filter(blog => (blog.category === this.props.category.categoryName) ).map((blog) => (
+            {this.props.listOfBlogs.filter(blog => (blog.category === this.props.category.id) ).map((blog) => (
                 <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} direction={'column'} align="center" id={'/'+this.props.category.link+'/' +blog.link}>
                     <Grid style={{backgroundColor:"#eeeeee"}}>
                         <img key={blog.id} src={'blogImages'+ blog.src} title={blog.title} alt={blog.title} width="200" height="200"/>

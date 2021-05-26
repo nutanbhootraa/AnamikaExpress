@@ -1,13 +1,12 @@
 import './Body.css';
 import React, {useState} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Button from "@material-ui/core/Button";
-import Grid from '@material-ui/core/Grid';
 import ShowBlogList from '../blogs/ShowBlogList';
-import categories from '../categories/Categories';
+import ShowCategoriesList from '../categories/ShowCategoriesList';
+import CategoriesMetaData from '../categories/CategoriesMetaData';
 import blogs from '../blogs/BlogMetaData';
-import { HashLink as Link} from 'react-router-hash-link';
 import Counter from '../Counter';
+import BackToTop from './BackToTop'
 
 const useStyles = makeStyles((theme) => ({
     mainClass: {
@@ -25,9 +24,9 @@ const useStyles = makeStyles((theme) => ({
 
 const getCategory = () => {
     const url = window.location.href;
-    const category = categories.filter(category => url.includes(category.link))[0];
-    return category!= null ? category : categories[0];
-}
+    const category = CategoriesMetaData.filter(category => url.includes(category.link))[0];
+    return category!= null ? category : CategoriesMetaData[0];
+};
 
 function Body() {
     const classes = useStyles();
@@ -37,19 +36,11 @@ function Body() {
     return (
         <div className={classes.mainClass}>
 
-            <Grid container spacing={1} justify="center" alignItems="center" style={{minHeight:"50px"}} id="top">
-                    {categories.map((category) => (
-                        <Link to={'/'+category.link} replace style={{textDecoration:'none'}}>
-                            <Button onClick={() => setCategory(category)} color="secondary" >  {category.categoryName} </Button>
-                        </Link>
-                    ))}
-            </Grid>
+            <ShowCategoriesList CategoriesMetaData={CategoriesMetaData} setCategory={setCategory} />
 
             <ShowBlogList category={currentCategory} listOfBlogs={blogs} classes={useStyles()}/>
 
-            <a href={'/#top'} style={{textDecoration:'none'}}>
-                <Button color="primary" variant="contained"> Back to Top</Button>
-            </a>
+            <BackToTop/>
 
             <Counter/>
 

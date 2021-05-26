@@ -13,7 +13,7 @@ const RandomThoughts = () => {
     const lengthOfThoughts = listOfThoughts.length;
 
     return (
-        <div>
+        <div className="randomThoughts">
             <Pagination count={noOfPages} page={page} onChange={handleChange}/>
 
             {
