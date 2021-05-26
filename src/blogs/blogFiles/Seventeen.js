@@ -11,6 +11,7 @@ const Seventeen = () => {
                         <li>Do not repeat yourself.</li>
                         <li>Function should do only one thing.</li>
                         <i>
+                            <div style={{maxWidth: '400px', overflowX: 'scroll'}}>
 <pre>{`void testAbcFunctionality(int number) {
   if (number < 300 && number > 600) {
     throw new Exception("invalid number");
@@ -26,11 +27,15 @@ const Seventeen = () => {
 void uploadNumberToEarth2(int number) {
 ... Do something
 }
-`}</pre> </i>
+`}</pre>
+                            </div>
+                        </i>
  What is wrong with the above code? <br/>
                         a) Code is repeating.<br/>
                         b) It is 1 big function with multiple functionalities : In below code, all the functions are very small and doing only one functionality.
-<i><pre>{`void testAbcFunctionality(int number) {
+                        <div style={{maxWidth: '400px', overflowX: 'scroll'}}>
+
+                        <i><pre>{`void testAbcFunctionality(int number) {
     verifyNumber(number);
     if (isOdd(number)) {
       n++;
@@ -56,6 +61,7 @@ void uploadNumberToEarth2(int number) {
 ... Do something
 }
           `}</pre></i>
+                        </div>
                         <li> Function should be read top to bottom : If you see above code block, it will first verify number, then it will check whether the number is even or odd, then it will upload number.</li>
                         <li>Use descriptive names. It can be long but make it intuitive, don't assume anyone will understand the name.</li>
                         <li>The ideal number of function arguments is zero(niladic), next comes one(monadic), followed closely by two(dyadic). Three arguments(triadic) should be avoided where possible.
@@ -65,7 +71,8 @@ void uploadNumberToEarth2(int number) {
                         <li>When a function needs more than two or three arguments, wrap those arguments inside the class and pass the object.</li>
                         <li>Avoid writing functions in such a way that user has to remember order. For example, assertEquals(expected, actual) can be rewritten as assertExpectedEqualsActual(expected, actual).</li>
                         <li>Avoid side effects :
-                           <i> <pre>{`void checkPassword(String userName, String password) {
+                            <div style={{maxWidth: '400px', overflowX: 'scroll'}}>
+                            <i> <pre>{`void checkPassword(String userName, String password) {
   String codePhrase = getCodePhraseForUsernamePassword(userName, password);
   if("Valid Password".equals(codePhrase)) {
     Session.initialize();
@@ -73,6 +80,7 @@ void uploadNumberToEarth2(int number) {
   }
   return false;
 }`}</pre> </i>
+                            </div>
                             The side effect here is to call session.initialize(). User will not know that some action on session is also triggered while checking password.
                         </li>
                         <li>Functions should either do something or answer something, but not both. For example,
