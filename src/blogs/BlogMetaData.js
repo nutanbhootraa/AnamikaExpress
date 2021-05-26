@@ -22,7 +22,7 @@ const listOfBlogs = [
     {
         id: 17,
         category:'2',
-        title:'Clean Code : Functions',
+        title:'Clean Code : Part 3',
         src: '/cleancode.jpg',
         show: <Seventeen />,
         link: 'functions',
@@ -40,7 +40,7 @@ const listOfBlogs = [
     {
         id: 15,
         category:'2',
-        title:'Clean Code : Meaningful Names',
+        title:'Clean Code : Part 2',
         src: '/cleancode.jpg',
         show: <Fifteen />,
         link: 'meaningfulnames',

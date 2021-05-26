@@ -11,7 +11,7 @@ import BackToTop from './BackToTop'
 const useStyles = makeStyles((theme) => ({
     mainClass: {
         boxShadow: theme.shadows[0],
-        backgroundColor:"light grey",
+        backgroundColor:"#ffffff",
         minHeight:'200px'
 
     },
