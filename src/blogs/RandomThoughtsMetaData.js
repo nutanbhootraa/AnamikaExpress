@@ -2,6 +2,32 @@ import {Twemoji} from 'react-emoji-render';
 
 const listOfThoughts = [
     {
+        id: 18,
+        show: <p>
+            Random Thought 18 : <br/> After hearing so much about brother's day. <br/>
+            my friend : Apan ko sister's day mangta hai <br/>
+            Mera bhai ye sunke hi behosh ho gaya, ki isko or paise dene padenge.
+            <Twemoji svg text=":P :P" />
+        </p>
+    },
+    {
+        id: 17,
+        show: <p>
+            Random Thought 17 : <br/> Kamaan se nikla teer, jabaan se nikla shabd or status pe dala hua thought <br/>
+            Wapas nahi lia ja sakta <br/>
+            <Twemoji svg text=":P :P" />
+        </p>
+    },
+    {
+        id: 16,
+        show: <p>
+            Random Thought 16 : <br/> Once I fell in love with a guy who worked in SBI <br/>
+            My love story could not move forward <br/>
+            Kyuki wo abhi bhi lunch kar raha hai
+            <Twemoji svg text="🤭🤭" />
+        </p>
+    },
+    {
         id: 15,
         show: <p>
             Random Thought 15 : <br/> I feel a generation gap with my own age people.. <br/>
