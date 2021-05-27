@@ -65,6 +65,8 @@ private void b(){}
             <Grid align="center" style={{backgroundColor:"#eeeeee"}} width="75%">
                 <p style={{fontFamily:"Alegreya, serif", color:"blue", lineHeight:'1.8'}}>
                     ENJOY CODING!!!
+                    <br/>
+#writing #blogging #techBlog #blogger #cleanCode #Comments #Formatting #ErrorHandling
                 </p>
             </Grid>
         </div>
