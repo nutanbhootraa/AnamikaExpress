@@ -25,6 +25,7 @@ const Eighteen = () => {
                         <li>Don't comment out the code. Simply delete it and Use version control to see what has been changed. If it's unavoidable then use a TODO comment.</li>
                         <li>Do not write too much information.</li>
                         <li>Do not write java doc for non-public code.</li>
+                        <li>A comment which got old, irrelevant and incorrect is obsolete. If you find an obsolete comment, update it.(Goes for dead/obsolete code)</li>
                     </ol>
                 </p>
             </Grid>
@@ -47,6 +48,10 @@ private void b(){}
                         <li>In C++ we have scissors rule, which puts all the instance variables at the bottom. However, the common convention in Java is to put them all at the top of the class.</li>
                         <li>Choose consistent indentation.</li>
                         <li>Do not break indentation for one liner if conditions or for loops.</li>
+                        <li>Avoid negative conditioning <br/>
+                        if (someCondition1) is preferable over if(!someCondition2)
+                        </li>
+                        <li>Use ENUM instead of Constants, if possible</li>
                     </ol>
                 </p>
             </Grid>
