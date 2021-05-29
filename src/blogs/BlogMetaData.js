@@ -19,8 +19,18 @@ import Sixteen from './blogFiles/Sixteen';
 import Seventeen from './blogFiles/Seventeen';
 import Eighteen from './blogFiles/Eighteen';
 import Nineteen from './blogFiles/Nineteen';
+import Twenty from './blogFiles/Twenty';
 
 const listOfBlogs = [
+    {
+        id: 20,
+        category:'2',
+        title:'Clean Code : Part 6',
+        src: '/cleancode.jpg',
+        show: <Twenty />,
+        link: 'part6',
+        date: 'May 29, 2021',
+    },
     {
         id: 19,
         category:'2',
