@@ -24,6 +24,7 @@ import Twenty from './blogFiles/Twenty';
 const listOfBlogs = [
     {
         id: 20,
+        idToShow: 5,
         category:'2',
         title:'Clean Code : Part 6',
         src: '/cleancode.jpg',
@@ -33,6 +34,7 @@ const listOfBlogs = [
     },
     {
         id: 19,
+        idToShow: 4,
         category:'2',
         title:'Clean Code : Part 5',
         src: '/cleancode.jpg',
@@ -42,6 +44,7 @@ const listOfBlogs = [
     },
     {
         id: 18,
+        idToShow: 3,
         category:'2',
         title:'Clean Code : Part 4',
         src: '/cleancode.jpg',
@@ -51,6 +54,7 @@ const listOfBlogs = [
     },
     {
         id: 17,
+        idToShow: 2,
         category:'2',
         title:'Clean Code : Part 3',
         src: '/cleancode.jpg',
@@ -60,6 +64,7 @@ const listOfBlogs = [
     },
     {
         id: 16,
+        idToShow: 12,
         category:'0',
         title:'Boss, Helper or Leader',
         src: '/bossleader.jpeg',
@@ -69,6 +74,7 @@ const listOfBlogs = [
     },
     {
         id: 15,
+        idToShow: 1,
         category:'2',
         title:'Clean Code : Part 2',
         src: '/cleancode.jpg',
@@ -78,6 +84,7 @@ const listOfBlogs = [
     },
     {
         id: 14,
+        idToShow: 0,
         category:'2',
         title:'Clean Code : Part 1',
         src: '/cleancode.jpg',
@@ -87,6 +94,7 @@ const listOfBlogs = [
     },
     {
         id: 13,
+        idToShow: 1,
         category:'1',
         title:'Puzzle 2 : Bridge Building',
         src: '/puzzle1.jpg',
@@ -96,6 +104,7 @@ const listOfBlogs = [
     },
     {
         id: 12,
+        idToShow: 11,
         category: '0',
         title: 'Kuch kuch hota hai 20 : trailer',
         src: '/kkhh.jpg',
@@ -105,6 +114,7 @@ const listOfBlogs = [
     },
     {
         id: 11,
+        idToShow: 10,
         category: '0',
         title: 'Why women can\'t keep secrets',
         src: '/womenSecrets.jpg',
@@ -114,6 +124,7 @@ const listOfBlogs = [
     },
     {
         id: 10,
+        idToShow: 9,
         category: '0',
         title: 'Mental Health : A Luxury Today?',
         src: '/depression.jpeg',
@@ -123,6 +134,7 @@ const listOfBlogs = [
     },
     {
         id: 9,
+        idToShow: 0,
         category: '1',
         title: 'Puzzle 1 : Slitherlink',
         src: '/puzzle1.jpg',
@@ -132,6 +144,7 @@ const listOfBlogs = [
     },
     {
         id: 8,
+        idToShow: 8,
         category: '0',
         title: 'Missing flight at Mumbai international airport',
         src: '/missingFlight.jpg',
@@ -141,6 +154,7 @@ const listOfBlogs = [
     },
     {
         id: 7,
+        idToShow: 7,
         category: '0',
         title: 'My 1st flight journey',
         src: '/firstFlight.jpg',
@@ -150,6 +164,7 @@ const listOfBlogs = [
     },
     {
         id: 6,
+        idToShow: 6,
         category: '0',
         title: 'Who am I?',
         src: '/whoami.jpg',
@@ -159,6 +174,7 @@ const listOfBlogs = [
     },
     {
         id: 5,
+        idToShow: 5,
         category: '0',
         title: '3 mentors of my life',
         src: '/mentors.jpg',
@@ -168,6 +184,7 @@ const listOfBlogs = [
     },
     {
         id: 4,
+        idToShow: 4,
         category: '0',
         title: 'Let me breathe; please set me free',
         src: '/setMeFree.jpg',
@@ -177,6 +194,7 @@ const listOfBlogs = [
     },
     {
         id: 3,
+        idToShow: 3,
         category: '0',
         title: 'Independent India : A crossword puzzle',
         src: '/indepindia.jpg',
@@ -186,6 +204,7 @@ const listOfBlogs = [
     },
     {
         id: 2,
+        idToShow: 2,
         category: '0',
         title: 'Lockdown Thoughts : Privilege of what I want over what I need',
         src: '/lockdown.jpg',
@@ -195,6 +214,7 @@ const listOfBlogs = [
     },
     {
         id: 1,
+        idToShow: 1,
         category: '0',
         title: 'क्या हम वाकई स्वतंत्र हैं',
         src: '/indepindia1.jpg',
@@ -204,6 +224,7 @@ const listOfBlogs = [
     },
     {
         id: 0,
+        idToShow: 0,
         category: '0',
         title: 'A Thought',
         src: '/thought.jpg',

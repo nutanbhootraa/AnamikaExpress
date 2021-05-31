@@ -1,5 +1,4 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
 import Pagination from '@material-ui/lab/Pagination';
 import listOfThoughts from './RandomThoughtsMetaData';
 
@@ -20,9 +19,10 @@ const RandomThoughts = () => {
                 listOfThoughts
                     .filter(thought => ((lengthOfThoughts-thought.id) > (page-1)* noOfThoughtsPerPage & (lengthOfThoughts-thought.id) <= (page)* noOfThoughtsPerPage ))
                     .map((thought) => (
-                        <Grid align="left" style={{backgroundColor:"#eeeeee"}} width="75%">
+                        <div key={thought.id} align="center" style={{backgroundColor:"#eeeeee"}} width="75%">
+                            <u>{thought.id}</u>
                             {thought.show}
-                        </Grid>
+                        </div>
                     ))}
             <Pagination count={noOfPages} page={page} onChange={handleChange}/>
         </div>
