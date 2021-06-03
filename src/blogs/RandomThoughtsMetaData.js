@@ -100,8 +100,9 @@ const listOfThoughts = [
     {
         id: 5,
         show: <p>
-            Pehle mujhe EID ka din pata nahi tha.. ab solmon boi ne bata dia without any disappointment(because
-            that's what was expected from the trailer of Radhe)
+            Pehle mujhe EID ka din pata nahi tha..<br/>
+            ab solmon boi ne bata dia without any disappointment, <br/>
+            because that's what was expected from the trailer of Radhe.
         </p>
     },
     {
@@ -115,7 +116,7 @@ const listOfThoughts = [
     {
         id: 3,
         show:  <p>
-            Modiji apne vana vau vau wale look mai itne busy ho gae ko corona cases pe jyada dhyan nahi de par <br/>
+            Modiji apne vana vau vau wale look mai itne busy ho gae ko corona cases pe jyada dhyan nahi de pae <br/>
             #KabirSinghLookOfModiji
         </p>
     },
