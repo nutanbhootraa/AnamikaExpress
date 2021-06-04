@@ -20,8 +20,19 @@ import Seventeen from './blogFiles/Seventeen';
 import Eighteen from './blogFiles/Eighteen';
 import Nineteen from './blogFiles/Nineteen';
 import Twenty from './blogFiles/Twenty';
+import TwentyOne from './blogFiles/TwentyOne';
 
 const listOfBlogs = [
+    {
+        id: 21,
+        idToShow: 13,
+        category:'0',
+        title:'YES to failures, NO to regrets',
+        src: '/failurevsregret.jpg',
+        show: <TwentyOne />,
+        link: 'failuresvsregrets',
+        date: 'Jun 04, 2021',
+    },
     {
         id: 20,
         idToShow: 5,

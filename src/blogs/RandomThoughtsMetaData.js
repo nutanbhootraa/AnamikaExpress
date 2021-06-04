@@ -2,6 +2,15 @@ import {Twemoji} from 'react-emoji-render';
 
 const listOfThoughts = [
     {
+        id: 19,
+        show: <p>
+            When I will run for president, my slogan would be : <br/>
+            "One India one meme platform"<br/>
+            My election manifesto part 1 : we will create one big platform for memes and everyday top 10 memes will be reviewed & promoted by president herself.
+            <Twemoji svg text=":D :D" />
+        </p>
+    },
+    {
         id: 18,
         show: <p>
             After hearing so much about brother's day. <br/>
