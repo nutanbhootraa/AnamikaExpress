@@ -21,8 +21,19 @@ import Eighteen from './blogFiles/Eighteen';
 import Nineteen from './blogFiles/Nineteen';
 import Twenty from './blogFiles/Twenty';
 import TwentyOne from './blogFiles/TwentyOne';
+import TwentyTwo from './blogFiles/TwentyTwo';
 
 const listOfBlogs = [
+    {
+        id: 22,
+        idToShow: 2,
+        category:'1',
+        title:'Minimum Number Of Colours',
+        src: '/triangle.png',
+        show: <TwentyTwo />,
+        link: 'minimumColours',
+        date: 'Jun 07, 2021',
+    },
     {
         id: 21,
         idToShow: 13,

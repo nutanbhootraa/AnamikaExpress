@@ -47,21 +47,15 @@ class ShowBlogList extends Component{
                 <Grid container elevation={3} className={this.props.classes.sidebarAboutBox} direction={'column'} align="center" id={'/'+this.props.category.link+'/' +blog.link}>
                     <Grid style={{backgroundColor:"#eeeeee"}}>
                         <img key={blog.id} src={'blogImages'+ blog.src} title={blog.title} alt={blog.title} width="200" height="200"/>
-                    </Grid>
-                    <Grid item>
                         <h3>{blog.title}</h3>
-                    </Grid>
-                    <Grid container>
                         {this.state.isToggleOn[blog.id] ?
-                            <div>
+                            <div style={{align:'center'}}>
                                 <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
                                      Read less
                                 </Button>
                                 <ShowBlog blog={blog}/>
                             </div>
                             : null}
-                    </Grid>
-                    <Grid item>
                         <a href={'/#/'+this.props.category.link+'/' +blog.link} style={{textDecoration:'none'}}>
                         <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
 
@@ -69,11 +63,8 @@ class ShowBlogList extends Component{
                         </Button>
                         </a>
                     </Grid>
-
                 </Grid>
-
             ))}
-
             </div>
 
         );
