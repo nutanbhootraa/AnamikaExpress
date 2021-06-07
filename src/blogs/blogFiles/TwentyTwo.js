@@ -12,6 +12,7 @@ const TwentyTwo = () => {
                     <br/>
 
                     Have a happy week <Twemoji svg text=" 🤗🤗" />
+                    <br/> #puzzleNinja #logicalReasoning #blogging #puzzles #blogger
                 </p>
             </Grid>
         </div>
