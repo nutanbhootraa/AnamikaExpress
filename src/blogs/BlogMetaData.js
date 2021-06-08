@@ -22,8 +22,19 @@ import Nineteen from './blogFiles/Nineteen';
 import Twenty from './blogFiles/Twenty';
 import TwentyOne from './blogFiles/TwentyOne';
 import TwentyTwo from './blogFiles/TwentyTwo';
+import TwentyThree from './blogFiles/TwentyThree';
 
 const listOfBlogs = [
+    {
+        id: 23,
+        idToShow: 3,
+        category:'1',
+        title:'Find the number?',
+        src: '/questionMark.png',
+        show: <TwentyThree />,
+        link: 'findthenumber',
+        date: 'Jun 08, 2021',
+    },
     {
         id: 22,
         idToShow: 2,
