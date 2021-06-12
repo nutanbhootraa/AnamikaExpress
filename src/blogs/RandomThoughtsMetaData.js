@@ -2,6 +2,45 @@ import {Twemoji} from 'react-emoji-render';
 
 const listOfThoughts = [
     {
+        id: 23,
+        show: <p>
+            If a pistol appears in a story, eventually it's got to be fired. (In a good story )
+            <Twemoji svg text=":P :P" /> <br/>
+        </p>
+    },
+    {
+        id: 22,
+        show: <p>
+            If someday we all go to prison for downloading music, Ijust hope they split us by the music genre.
+            <Twemoji svg text=":P :P" /> <br/>
+        </p>
+    },
+    {
+        id: 21,
+        show: <p>
+            After watching star wars for the 1st time..
+            <br/> My Friend : dude, are you converting to dark side?
+            <br/> Me(a star wars fan) : what? Noooo...
+            <br/> He : I have seen "kill the orphan child" in your browser history...
+
+            <br/><br/> kill -9 pid
+            <br/> #justComputerScienceThings
+            <Twemoji svg text=":P :P" /> <br/>
+            Maa : 1
+            Lazy Me : 0
+        </p>
+    },
+    {
+        id: 20,
+        show: <p>
+            Me : Mera dupatta aj tak kisi ke button ami nahi phasa <Twemoji svg text=":( :(" /> <br/>
+            Maa : Ha to uske lie dupatta lagana padta hai.. ye jo pura din night suit mai nikal deti ho, usse nahi chalega
+            <Twemoji svg text=":/ :/" /> <br/>
+            Maa : 1
+            Lazy Me : 0
+        </p>
+    },
+    {
         id: 19,
         show: <p>
             When I will run for president, my slogan would be : <br/>
