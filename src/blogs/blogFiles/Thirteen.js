@@ -31,6 +31,9 @@ const Nine = () => {
                     <img key={1} src={'blogImages/puzzle2/buildBridges.png'} alt="1" width="300" height="300"/> <br/>
 
                     Have a happy week <Twemoji svg text=" 🤗🤗" />
+                    <br/><br/>
+                    #puzzles #Blogger #Blogging #connectIslands #puzzleLover
+
                 </p>
             </Grid>
         </div>

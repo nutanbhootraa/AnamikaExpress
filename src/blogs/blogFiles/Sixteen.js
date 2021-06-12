@@ -50,7 +50,8 @@ const Fifteen = () => {
 
                     Now as I am the mentor for many people I guide them, show them the path, and together try to break their problems. I don’t want to be a boss or helper, I want to be a leader.<br/><br/>
 
-                    #leadershipIsAnArt #beALeader #bossHelperOrLeader
+                    #leadershipIsAnArt #beALeader #bossHelperOrLeader  #shortStories #Blogger #Blogging
+
                 </p>
             </Grid>
         </div>

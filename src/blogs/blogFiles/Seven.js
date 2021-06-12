@@ -54,6 +54,8 @@ const Seven = () => {
                     It was 30 minutes on the plane, this kid has started a video in full volume. and whenever his father tried taking the phone or to reduce the volume, he cried in the volume higher than the video. If that was not enough that kid was kicking the seat in front of him and annoying other passengers too.<br/><br/>
 
                     Somehow, I completed this rollercoaster journey with the kid, his father and panic attacks.<br/>
+                    #shortStories #Blogger #Blogging #myFirstFlight #myExperiences
+
                 </p>
             </Grid>
         </div>

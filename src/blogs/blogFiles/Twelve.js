@@ -37,6 +37,9 @@ const Twelve = () => {
                     Will Anjali get divorce and alimony? Will Rahul learn to do household chores or will he get married again? How is Tina doing in heaven or hell (for naming her kid after the name of her husband’s TRUE love) What happened to little Anjali? Will little Tina be the hottest chick of her college, like her mother? <br/><br/>
 
                     To know all these answers watch kuch kuch hota hai part 20.<br/><br/>
+
+                    #shortStories #Blogger #Blogging #kuchKuchHotaHai #childhoodFavoriteMovieFor90sKids
+
                 </p>
             </Grid>
         </div>

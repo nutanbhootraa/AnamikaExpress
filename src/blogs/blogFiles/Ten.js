@@ -47,6 +47,7 @@ const Ten = () => {
                         <b>“There is hope, even when your brain tells you there isn’t.” ― John Green</b><br/><br/>
                     </Grid>
                     Stay home. Stay safe. Stay sane.<br/><br/>
+                    #shortStories #Blogger #Blogging #mentalHealth #peopleDon'tTalkAbout
                 </p>
             </Grid>
         </div>

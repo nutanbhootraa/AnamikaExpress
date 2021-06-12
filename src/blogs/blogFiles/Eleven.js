@@ -29,7 +29,9 @@ const Eleven = () => {
                     On the battlefield, when Karna died, Kunti cried a lot. When everyone got to know that Karna was Kunti’s eldest son, Yudhisthira, who was now the eldest son, could not bear it.
                     He cursed Kunti that from now onward no woman can keep a secret. Because of your secret, we lost our brother.<br/><br/>
 
-                    And kids, that is why we, women, can’t keep secrets.
+                    And kids, that is why we, women, can’t keep secrets. <br/><br/>
+                    #shortStories #Blogger #Blogging #mahabharata #whyWomenCantKeepSecrets #kuntiAndKarna
+
                 </p>
             </Grid>
         </div>

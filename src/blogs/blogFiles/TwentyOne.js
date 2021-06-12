@@ -35,6 +35,8 @@ const TwentyOne = () => {
                     Every day I decide to eat healthy but... <br/><br/>
                     There are all kinds of ifs and buts coated failures here and there but no regrets at all for any of my decisions that I took after those failures, thoroughly thought & calculated decisions. <br/>
                     Because I know, whatever happens, happens for good & I am in a better position right now in every aspect if I had chosen otherwise.
+                    <br/><br/>
+                    #shortStories #Blogger #Blogging #failures #noRegrets
                 </p>
             </Grid>
 

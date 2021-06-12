@@ -47,6 +47,7 @@ const Two = () => {
                     I suddenly felt so privileged and lucky that I have a mom.<br/><br/>
 
                     If you are getting salary credited to your account, have food to eat, a place to live, friends and family to talk to, believe me, my friends you are privileged too.<br/><br/>
+                    #shortStories #Blogger #Blogging #lockdownThoughts #iamPrivileged
                 </p>
             </Grid>
         </div>

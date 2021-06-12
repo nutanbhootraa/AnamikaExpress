@@ -23,8 +23,19 @@ import Twenty from './blogFiles/Twenty';
 import TwentyOne from './blogFiles/TwentyOne';
 import TwentyTwo from './blogFiles/TwentyTwo';
 import TwentyThree from './blogFiles/TwentyThree';
+import TwentyFour from './blogFiles/TwentyFour';
 
 const listOfBlogs = [
+    {
+        id: 24,
+        idToShow: 6,
+        category:'2',
+        title:'S.O.L.I.D Principles',
+        src: '/solid.png',
+        show: <TwentyFour />,
+        link: 'solid',
+        date: 'Jun 12, 2021',
+    },
     {
         id: 23,
         idToShow: 3,

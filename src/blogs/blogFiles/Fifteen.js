@@ -124,7 +124,9 @@ const Fifteen = () => {
             </Grid>
             <Grid align="center" style={{backgroundColor:"#eeeeee"}} width="75%">
                 <p style={{fontFamily:"Alegreya, serif", color:"blue", lineHeight:'1.8'}}>
-                    ENJOY CODING!!!
+                    ENJOY CODING!!! <br/>
+                    #techBlogs #Blogger #Blogging #cleanCode #meaningfulNames
+
                 </p>
             </Grid>
         </div>

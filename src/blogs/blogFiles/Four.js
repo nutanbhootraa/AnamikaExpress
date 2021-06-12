@@ -89,6 +89,9 @@ const Four = () => {
                     And maybe for once, everyone will see<br/>
                     That no one can no longer hurt me<br/>
                     Let me breathe, please set me free.<br/>
+                    <br/>
+                    #shortStories #Blogger #Blogging #seriousThought #banRapeCulture #betiBachaoBetiPadhaoBetiKoJeeneDo
+
                 </p>
             </Grid>
         </div>

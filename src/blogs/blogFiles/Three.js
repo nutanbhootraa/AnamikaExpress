@@ -58,7 +58,9 @@ const Three = () => {
 
                     I believe when everyone will get equal opportunities to become happy, they will automatically try India to be a happy and completely independent country.<br/><br/>
 
-                    Jai hind.
+                    Jai hind. <br/>
+                    #shortStories #Blogger #Blogging #independentIndia #howIndependentWeAre
+
                 </p>
             </Grid>
         </div>

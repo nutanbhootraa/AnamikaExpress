@@ -49,6 +49,8 @@ const Five = () => {
                     I have decided to help myself. 6A.M to 12P.M., 1P.M-3P.M., 4P.M.-9P.M., 10P.M-midnight I started studying 15 hours a day with my English to Hindi dictionary. I did not attend any of the family functions, hence no distractions. though I did not get IIT I got 90% in my boards, so I was pretty happy.<br/><br/>
 
                     The day results got announced I learned 1 very important lesson of my life: You may have mentors or teachers. Someone may guide you through something, or in my case, some people walked with me but the biggest and the most important thing is you have to help yourself and move forward.<br/><br/>
+                    #shortStories #Blogger #Blogging #myMentors
+
                 </p>
             </Grid>
         </div>
