@@ -4,9 +4,9 @@ const listOfThoughts = [
     {
         id: 25,
         show: <p>
-            I would like to go in my past and slap myself for making stupid decisions <br/>
-            <br/> Behen ache decision le na.. teenage ke chakkar mai jawani barbad ho jaegi.
-            <Twemoji svg text="🤷‍♀️🤷‍♀️" /> <br/>
+            I would like to go in my past and slap myself for making stupid decisions
+            <br/> Behen ache decision le na.. teenage ke chakkar mai jawani barbad ho jaegi. <br/>
+            <Twemoji svg text="🤷‍♀️🤷‍♀️" />
         </p>
     },
     {
