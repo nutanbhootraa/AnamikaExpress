@@ -2,6 +2,22 @@ import {Twemoji} from 'react-emoji-render';
 
 const listOfThoughts = [
     {
+        id: 25,
+        show: <p>
+            I would like to go in my past and slap myself for making stupid decisions <br/>
+            <br/> Behen ache decision le na.. teenage ke chakkar mai jawani barbad ho jaegi.
+            <Twemoji svg text="🤷‍♀️🤷‍♀️" /> <br/>
+        </p>
+    },
+    {
+        id: 24,
+        show: <p>
+            They say : Money can't buy happiness..
+            <br/> Me : pizza free mai kaha mil raha hai
+            <Twemoji svg text="🤷‍♀️🤷‍♀️" /> <br/>
+        </p>
+    },
+    {
         id: 23,
         show: <p>
             If a pistol appears in a story, eventually it's got to be fired. (In a good story )

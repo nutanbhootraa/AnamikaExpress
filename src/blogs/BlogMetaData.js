@@ -24,8 +24,19 @@ import TwentyOne from './blogFiles/TwentyOne';
 import TwentyTwo from './blogFiles/TwentyTwo';
 import TwentyThree from './blogFiles/TwentyThree';
 import TwentyFour from './blogFiles/TwentyFour';
+import TwentyFive from './blogFiles/TwentyFive';
 
 const listOfBlogs = [
+    {
+        id: 25,
+        idToShow: 14,
+        category:'0',
+        title:'Never lie',
+        src: '/neverlie.jpg',
+        show: <TwentyFive />,
+        link: 'neverlie',
+        date: 'Jun 18, 2021',
+    },
     {
         id: 24,
         idToShow: 6,
