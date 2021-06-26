@@ -1,4 +1,6 @@
 import './blogFiles/blogFiles.css'
+import {Twemoji} from 'react-emoji-render';
+
 import Zero from './blogFiles/Zero';
 import One from './blogFiles/One';
 import Two from './blogFiles/Two';
@@ -25,8 +27,19 @@ import TwentyTwo from './blogFiles/TwentyTwo';
 import TwentyThree from './blogFiles/TwentyThree';
 import TwentyFour from './blogFiles/TwentyFour';
 import TwentyFive from './blogFiles/TwentyFive';
+import TwentySix from './blogFiles/TwentySix';
 
 const listOfBlogs = [
+    {
+        id: 26,
+        idToShow: 15,
+        category:'0',
+        title:"My Brother's \"The Speech\"" ,
+        src: '/speech.jpeg',
+        show: <TwentySix />,
+        link: 'thespeech',
+        date: 'Jun 26, 2021',
+    },
     {
         id: 25,
         idToShow: 14,
