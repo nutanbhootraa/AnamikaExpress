@@ -13,7 +13,7 @@ const TwentySix = () => {
                     He went on stage. Started the speech. <br/>
                     <i>Jawahar Lal Nehru.. Jawahar Lal Nehru... Jawahar Lal Nehru.... Thank you.</i> <br/>
 
-                    This incident stuck with us for the rest of our lives. He worked on his public speaking skills from then onwards.
+                    This incident stuck with us for the rest of our lives. He worked everyday on his public speaking skills from then onwards.
                     Now he hosts his college fests and no family function goes well without him. <br/>
 
                     Our entire family is really proud of him and his transformation from <b>"Shy" <Twemoji svg text="😫"/></b> to <b>"Secure and confident"<Twemoji svg text="🔥"/></b>.
