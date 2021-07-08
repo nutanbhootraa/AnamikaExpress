@@ -1,5 +1,4 @@
 import './blogFiles/blogFiles.css'
-import {Twemoji} from 'react-emoji-render';
 
 import Zero from './blogFiles/Zero';
 import One from './blogFiles/One';
@@ -28,8 +27,19 @@ import TwentyThree from './blogFiles/TwentyThree';
 import TwentyFour from './blogFiles/TwentyFour';
 import TwentyFive from './blogFiles/TwentyFive';
 import TwentySix from './blogFiles/TwentySix';
+import TwentySeven from './blogFiles/TwentySeven';
 
 const listOfBlogs = [
+    {
+        id: 27,
+        idToShow: 7,
+        category:'2',
+        title:"The Morse Code" ,
+        src: '/morse.jpg',
+        show: <TwentySeven />,
+        link: 'morsecode',
+        date: 'Jul 08, 2021',
+    },
     {
         id: 26,
         idToShow: 15,
