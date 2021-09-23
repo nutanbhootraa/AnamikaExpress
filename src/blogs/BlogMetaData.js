@@ -28,8 +28,19 @@ import TwentyFour from './blogFiles/TwentyFour';
 import TwentyFive from './blogFiles/TwentyFive';
 import TwentySix from './blogFiles/TwentySix';
 import TwentySeven from './blogFiles/TwentySeven';
+import TwentyEight from './blogFiles/TwentyEight';
 
 const listOfBlogs = [
+    {
+        id: 28,
+        idToShow: 8,
+        category:'2',
+        title:"Functional Programming : What and why" ,
+        src: '/functional1.jpg',
+        show: <TwentyEight />,
+        link: 'functionalprogramming',
+        date: 'Sept 23, 2021',
+    },
     {
         id: 27,
         idToShow: 7,
