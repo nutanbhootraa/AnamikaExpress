@@ -29,8 +29,19 @@ import TwentyFive from './blogFiles/TwentyFive';
 import TwentySix from './blogFiles/TwentySix';
 import TwentySeven from './blogFiles/TwentySeven';
 import TwentyEight from './blogFiles/TwentyEight';
+import TwentyNine from './blogFiles/TwentyNine';
 
 const listOfBlogs = [
+    {
+        id: 29,
+        idToShow: 0,
+        category:'4',
+        title:"One Mic Stand" ,
+        src: '/onemicstand.jpg',
+        show: <TwentyNine />,
+        link: 'onemicstand',
+        date: 'Oct 22, 2021',
+    },
     {
         id: 28,
         idToShow: 8,

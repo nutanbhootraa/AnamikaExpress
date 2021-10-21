@@ -19,6 +19,11 @@ const listOfCategories = [
         categoryName: 'Random Thoughts',
         link:'randomthoughts',
     },
+    {
+        id: '4',
+        categoryName: 'Movie/Book Reviews',
+        link:'reviews',
+    },
 ];
 
 
