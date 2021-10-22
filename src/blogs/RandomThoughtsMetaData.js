@@ -2,6 +2,14 @@ import {Twemoji} from 'react-emoji-render';
 
 const listOfThoughts = [
     {
+        id: 26,
+        show: <p>
+            Maafi gunahon ki hoti hai, Message seen karke reply nahi karne ki sazaa hoti hai
+            <br/> SAZA-E-MAUT <br/>
+            <Twemoji svg text=":P :P" />
+        </p>
+    },
+    {
         id: 25,
         show: <p>
             I would like to go in my past and slap myself for making stupid decisions

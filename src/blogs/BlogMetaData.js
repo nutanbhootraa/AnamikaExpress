@@ -30,8 +30,19 @@ import TwentySix from './blogFiles/TwentySix';
 import TwentySeven from './blogFiles/TwentySeven';
 import TwentyEight from './blogFiles/TwentyEight';
 import TwentyNine from './blogFiles/TwentyNine';
+import Thirty from './blogFiles/Thirty';
 
 const listOfBlogs = [
+    {
+        id: 30,
+        idToShow: 4,
+        category:'1',
+        title:'Find the Number of Pencils',
+        src: '/math.jpeg',
+        show: <Thirty />,
+        link: 'findthenumberofpencils',
+        date: 'Oct 23, 2021',
+    },
     {
         id: 29,
         idToShow: 0,
