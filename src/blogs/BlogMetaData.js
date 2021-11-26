@@ -31,8 +31,19 @@ import TwentySeven from './blogFiles/TwentySeven';
 import TwentyEight from './blogFiles/TwentyEight';
 import TwentyNine from './blogFiles/TwentyNine';
 import Thirty from './blogFiles/Thirty';
+import ThirtyOne from './blogFiles/ThirtyOne';
 
 const listOfBlogs = [
+    {
+        id: 31,
+        idToShow: 1,
+        category:'4',
+        title:"The Palace Of Illusions" ,
+        src: '/palaceOfIllusions.jpg',
+        show: <ThirtyOne />,
+        link: 'thepalaceofillusions',
+        date: 'Nov 27, 2021',
+    },
     {
         id: 30,
         idToShow: 4,
