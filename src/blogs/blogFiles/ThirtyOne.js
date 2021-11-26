@@ -19,7 +19,7 @@ const ThirtyOne= () => {
                     <br/> Draupadi and Karna’s longing for each other.
                     <br/>  In swayamvar, Draupadi was in veil. I don’t remember reading it anywhere in Mahabharata about women in the veil.
                     <br/>
-                    <br/> Overs a beautiful story of “offspring of vengeance” to a “true queen” to a “destroyer” and her views.
+                    <br/> Overall a beautiful story of “offspring of vengeance” to a “true queen” to a “destroyer” and her views.
 
                     <br/>
                     <Grid align="center" style={{backgroundColor:"#eeeeee"}} width="75%">
