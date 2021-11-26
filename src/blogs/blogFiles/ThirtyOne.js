@@ -16,8 +16,8 @@ const ThirtyOne= () => {
                     <br/>   Myth 4) At the deathbed of Bheeshma, Karna and Bheeshma had the heart to heart conversation ( In Mahabharata, it was actually with Krishna)
                     <br/>
                     <br/> Being a regular reader and a huge fan of Mahabharata some of the myths which I did not like:
-                    <br/> Draupadi and Karna’s longing for each other.
-                    <br/>  In swayamvar, Draupadi was in veil. I don’t remember reading it anywhere in Mahabharata about women in the veil.
+                    <br/> 1) Draupadi and Karna’s longing for each other.
+                    <br/> 2) In swayamvar, Draupadi was in veil. I don’t remember reading it anywhere in Mahabharata about women in the veil.
                     <br/>
                     <br/> Overall a beautiful story of “offspring of vengeance” to a “true queen” to a “destroyer” and her views.
 
