@@ -32,8 +32,19 @@ import TwentyEight from './blogFiles/TwentyEight';
 import TwentyNine from './blogFiles/TwentyNine';
 import Thirty from './blogFiles/Thirty';
 import ThirtyOne from './blogFiles/ThirtyOne';
+import ThirtyTwo from './blogFiles/ThirtyTwo';
 
 const listOfBlogs = [
+    {
+        id: 32,
+        idToShow: 9,
+        category:'2',
+        title:"Functional Programming : How" ,
+        src: '/functional1.jpg',
+        show: <ThirtyTwo />,
+        link: 'functionalprogramminghow',
+        date: 'Dec 12, 2021',
+    },
     {
         id: 31,
         idToShow: 1,
