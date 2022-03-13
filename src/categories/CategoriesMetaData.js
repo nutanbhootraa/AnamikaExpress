@@ -24,6 +24,11 @@ const listOfCategories = [
         categoryName: 'Movie/Book Reviews',
         link:'reviews',
     },
+    {
+        id: '5',
+        categoryName: 'Toastmasters',
+        link:'toastmasters',
+    },
 ];
 
 

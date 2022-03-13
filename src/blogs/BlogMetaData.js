@@ -33,8 +33,30 @@ import TwentyNine from './blogFiles/TwentyNine';
 import Thirty from './blogFiles/Thirty';
 import ThirtyOne from './blogFiles/ThirtyOne';
 import ThirtyTwo from './blogFiles/ThirtyTwo';
+import ThirtyThree from './blogFiles/ThirtyThree';
+import ThirtyFour from './blogFiles/ThirtyFour';
 
 const listOfBlogs = [
+    {
+        id: 34,
+        idToShow: 2,
+        category:'5',
+        title:"Learning : A New Normal" ,
+        src: '/isc.jpeg',
+        show: <ThirtyFour />,
+        link: 'learninganewnormal',
+        date: 'Mar 13, 2022',
+    },
+    {
+        id: 33,
+        idToShow: 1,
+        category:'5',
+        title:"New Lease of Life" ,
+        src: '/experience.jpeg',
+        show: <ThirtyThree />,
+        link: 'newLeaseOfLife',
+        date: 'Jan 20, 2022',
+    },
     {
         id: 32,
         idToShow: 9,
