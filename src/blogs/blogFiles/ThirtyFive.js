@@ -84,7 +84,7 @@ const ThirtyFive= () => {
                         <p style={{fontFamily:"Alegreya, serif", color:"blue", lineHeight:'1.8'}}>
                             ENJOY CODING!!! <Twemoji svg text=" 🤗🤗" />
                             <br/>
-                            #codingIsFun #functionalProgramming #writing #blogging #techBlog #blogger
+                            #codingIsFun #mongoDbBasics #writing #blogging #techBlog #blogger
                         </p>
                     </Grid>
                 </p>
