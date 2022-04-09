@@ -35,8 +35,19 @@ import ThirtyOne from './blogFiles/ThirtyOne';
 import ThirtyTwo from './blogFiles/ThirtyTwo';
 import ThirtyThree from './blogFiles/ThirtyThree';
 import ThirtyFour from './blogFiles/ThirtyFour';
+import ThirtyFive from './blogFiles/ThirtyFive';
 
 const listOfBlogs = [
+    {
+        id: 35,
+        idToShow: 10,
+        category:'2',
+        title:"MongoDB : Basic CRUD Operations" ,
+        src: '/mongoDb.jpg',
+        show: <ThirtyFive />,
+        link: 'mongoDbBasics',
+        date: 'Apr 10, 2022',
+    },
     {
         id: 34,
         idToShow: 2,
