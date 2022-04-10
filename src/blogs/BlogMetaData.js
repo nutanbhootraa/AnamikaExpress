@@ -43,7 +43,7 @@ const listOfBlogs = [
         idToShow: 10,
         category:'2',
         title:"MongoDB : Basic CRUD Operations" ,
-        src: '/mongoDb.jpg',
+        src: '/mongo.png',
         show: <ThirtyFive />,
         link: 'mongoDbBasics',
         date: 'Apr 10, 2022',
