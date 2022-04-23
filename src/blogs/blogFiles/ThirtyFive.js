@@ -56,8 +56,6 @@ const ThirtyFive= () => {
                             <pre>{`db.articles.find({},{title:1})`}</pre></div> // it will give only id and title column. 1 denotes show the column.</li>
                         <li><div style={{maxWidth: '250px', overflowX: 'scroll'}}>
                             <pre>{`db.articles.find({},{title:1, "_id": 0})`}</pre></div> // it will give only title column. 0 denotes don't shoe the column.</li>
-                        <li><div style={{maxWidth: '250px', overflowX: 'scroll'}}>
-                            <pre>{`db.articles.find({})`}</pre></div></li>
                         <li>db.articles.findOne({}).pretty()  // gives error</li>
 
                         <li>it // Uses cursor for more data. When a lot of data comes in shell, it only shows a few records. we have to type it for more records. Cursors don't exist on delete, update, insert commands.</li>
