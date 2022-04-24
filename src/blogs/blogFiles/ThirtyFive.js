@@ -50,6 +50,7 @@ const ThirtyFive= () => {
                         <li>db.articles.find({}).pretty() // shows in a pretty way.</li>
 
                         <li>db.articles.find({}).toArray() // stores in an array.</li>
+                        <li>db.articles.find({}).count() </li>
                         <li><div style={{maxWidth: '250px', overflowX: 'scroll'}}>
                             <pre>{`db.articles.find({}).forEach((article) => {printjson(article.author)}))`}</pre></div></li>
                         <li><div style={{maxWidth: '250px', overflowX: 'scroll'}}>
@@ -65,6 +66,11 @@ const ThirtyFive= () => {
                         <li><div style={{maxWidth: '250px', overflowX: 'scroll'}}>
                             <pre>{`db.articles.deleteMany({"level":"basic"})`}</pre></div> // it deletes all the records where level is basic.
                         </li>
+
+                        <li><div style={{maxWidth: '250px', overflowX: 'scroll'}}>
+                            <pre>{`db.articles.deleteMany({})`}</pre></div> // it deletes all the records <br/>
+                        </li>
+
                         <li> <div style={{maxWidth: '250px', overflowX: 'scroll'}}>
                             <pre>{`db.articles.updateOne({"_id":"abc"}, {$set : {"author": "Dark Lord"}})`}</pre></div> // it updates one record where id is abc and adds author field. "set" is a keyword, hence we need to put $ in front of it.
                         </li>
