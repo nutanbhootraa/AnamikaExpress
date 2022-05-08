@@ -22,7 +22,7 @@ const ThirtyFive= () => {
 
                     Let's learn with examples. <br/>
 
-                    We have a Database anamikaexpress. It has a collection "articles". Every article in the collection articles may have different attributes.
+                    We have a Database anamikaexpress. It has a collection "articles". Every article in the collection articles may have different attributes. MongoDb CRUD operations are atomic at the document level.
                     <br/>
                     Commands :
                     <ul>

@@ -36,8 +36,19 @@ import ThirtyTwo from './blogFiles/ThirtyTwo';
 import ThirtyThree from './blogFiles/ThirtyThree';
 import ThirtyFour from './blogFiles/ThirtyFour';
 import ThirtyFive from './blogFiles/ThirtyFive';
+import ThirtySix from './blogFiles/ThirtySix';
 
 const listOfBlogs = [
+    {
+        id: 36,
+        idToShow: 11,
+        category:'2',
+        title:"MongoDB : Advanced Read Operations" ,
+        src: '/mongo.png',
+        show: <ThirtySix />,
+        link: 'mongoDbAdvancedReadOperations',
+        date: 'May 08, 2022',
+    },
     {
         id: 35,
         idToShow: 10,
