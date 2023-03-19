@@ -50,7 +50,7 @@ const ThirtySeven= () => {
                 <ol>
                     <b> The few quotes I liked : </b>
                     <li>Everyone is using someone else's coattails</li>
-                    <li>Trying to fil a sieve with sand</li>
+                    <li>Trying to fill a sieve with sand</li>
                     <li>There is nothing magical in books, magic lies in what books say</li>
                     <li>Don't look to be saved in any one person/thing/machine/library. Do your own bit of saving and still if you drown, atleast die knowing you were headed for shore.</li>
                     <li>Don't just nibble the edges</li>
