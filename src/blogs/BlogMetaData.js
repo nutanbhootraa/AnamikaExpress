@@ -37,8 +37,19 @@ import ThirtyThree from './blogFiles/ThirtyThree';
 import ThirtyFour from './blogFiles/ThirtyFour';
 import ThirtyFive from './blogFiles/ThirtyFive';
 import ThirtySix from './blogFiles/ThirtySix';
+import ThirtySeven from './blogFiles/ThirtySeven';
 
 const listOfBlogs = [
+    {
+        id: 37,
+        idToShow: 2,
+        category:'4',
+        title:"Fahrenheit 451 : Ray Bradbury" ,
+        src: '/fahrenheit451.jpeg',
+        show: <ThirtySeven />,
+        link: 'fahrenheit451',
+        date: 'March 19, 2023',
+    },
     {
         id: 36,
         idToShow: 11,
