@@ -36,6 +36,7 @@ const ThirtySeven= () => {
                         </li>
                     <li> The ex-firemen still kept Shakespeare, Jonathan Swift, Charles Darwin, etc., alive. It gives hope that when AI takes over the world, there will be a few ex-firemen who will keep humanity and books alive.
                     </li>
+                    (You see what I did here <Twemoji svg text=" :P :P" />)
                 </ol>
 
                 <ol>
