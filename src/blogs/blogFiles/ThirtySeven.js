@@ -13,7 +13,7 @@ const ThirtySeven= () => {
                 <b>The same nothingness Guy Montag felt once.</b> <br/>
 
                 Summary : <br/>
-                Fahrenheit 451 : The temperature at which books burn. the story of Guy Montag, a fireman who burns books and book-keepers' houses in a post-literate future where printed books are burnt and walls are made of screens. The book is divided into three parts.
+                Fahrenheit 451 : The temperature at which books burn. The story of Guy Montag, a fireman who burns books and book-keepers' houses in a post-literate future where printed books are burnt and walls are made of screens. The book is divided into three parts.
                 <br/>
                 <b>Part 1</b> begins with Guy burning books and a house, after which he meets a girl named Clarisse who makes him realize the emptiness in his life. He goes home to find that his wife Mildred has taken sleeping pills. He admits her to the hospital, but the next day she does not remember anything. Their relationship is also empty. A mechanical hound follows Guy, and he feels that the hound does not like him. He goes to the firehouse, where Captain Beatty is waiting for him to complete another task. They go to a woman's place and find books, which they burn. The woman refuses to come out and sets herself on fire. Montag steals a book and comes home. Feeling guilty, he shows Mildred all the books he stole from other people as a souvenir. Mildred panics and suggests burning them, she has burned a few without Guy's knowledge also.
                 <br/>
