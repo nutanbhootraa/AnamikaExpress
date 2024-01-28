@@ -56,7 +56,7 @@ class ShowBlogList extends Component{
                                 <ShowBlog blog={blog}/>
                             </div>
                             : null}
-                        <a href={'/#/'+this.props.category.link+'/' +blog.link} style={{textDecoration:'none'}}>
+                        <a href={'anamikaexpress/#/'+this.props.category.link+'/' +blog.link} style={{textDecoration:'none'}}>
                         <Button onClick={this.handleClick.bind(this, blog.id, lengthOfArray)}  color="primary" variant="contained">
 
                             {this.state.isToggleOn[blog.id] ? 'Read less' : 'Read more'}
